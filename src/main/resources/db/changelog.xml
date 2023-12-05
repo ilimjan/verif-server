@@ -1,0 +1,466 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet author="ppk-verification-server" id="08.12.2020.1253" runOnChange="true">
+        <loadUpdateData tableName="reference"
+                        primaryKey="id"
+                        file="db/References.csv"
+                        quotchar="'"/>
+    </changeSet>
+
+    <changeSet author="ppk-verification-server" id="14.12.2020.0027" runOnChange="true">
+        <loadUpdateData tableName="reference"
+                        primaryKey="id"
+                        file="db/Regions.csv"
+                        quotchar="'"/>
+    </changeSet>
+
+    <changeSet author="ppk-verification-server" id="01.02.2021.1815">
+        <modifyDataType tableName="work_schedule" columnName="schedule_json" newDataType="text"/>
+        <modifyDataType tableName="work_schedule_aud" columnName="schedule_json" newDataType="text"/>
+    </changeSet>
+
+    <changeSet author="ppk-verification-server" id="12.02.2021.1600">
+         <dropNotNullConstraint tableName="products_info" columnName="total_count_per_year"/>
+    </changeSet>
+
+    <changeSet author="ppk-verification-server" id="12.02.2021.1601">
+         <dropNotNullConstraint tableName="product" columnName="volume"/>
+    </changeSet>
+
+    <changeSet author="ppk-verification-server" id="12.02.2021.1602">
+         <dropNotNullConstraint tableName="provided_service" columnName="volume"/>
+    </changeSet>
+
+    <changeSet author="ppk-verification-server" id="12.02.2021.1603">
+         <dropNotNullConstraint tableName="secondary_resource_type" columnName="percent"/>
+    </changeSet>
+
+    <changeSet id="2021-10-26_11502" author="ppk-verification-server">
+        <modifyDataType tableName="infrastructure_object_info" columnName="wheels_washing_point_count" newDataType="int"/>
+    </changeSet>
+
+    <changeSet id="2021-11-02_11505" author="ppk-verification-server">
+        <modifyDataType tableName="infrastructure_object_info_aud" columnName="wheels_washing_point_count" newDataType="int"/>
+    </changeSet>
+
+    <changeSet author="ppk-verification-server" id="2022-03-02_6">
+        <update tableName="reference">
+            <column name="region_id" value="31" />
+            <where>id = 'cf61c4f9-ab7d-4e30-a65e-840cbe0f0061'</where>
+        </update>
+        <update tableName="reference">
+            <column name="region_id" value="1" />
+            <where>id = 'a0db0b96-0e45-44f4-9389-dc684b610c21'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="4" />
+            <where>id = '3a8af8e8-016b-4fa7-a157-265d42087445'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="22" />
+            <where>id = 'b9ab4144-ff41-456c-9e34-7dc42df11129'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="28" />
+            <where>id = '481f96bd-b61c-47ad-bf2b-dca62980ea4c'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="30" />
+            <where>id = '4e666236-9eb1-4b2f-a37b-21a68f2bede7'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="2" />
+            <where>id = 'e2c79ee6-4da5-4e93-a5ca-14ada63b0ba7'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="62" />
+            <where>id = '032800a8-d95b-45cc-a723-db3be47ba7aa'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="3" />
+            <where>id = '390dc9d5-5ddf-41f0-8581-223c21eb2af2'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="33" />
+            <where>id = 'fc76cad8-9435-47bd-93ae-bdce2e055f69'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="34" />
+            <where>id = '1d951a48-61b0-4148-9b99-f78c900eceb2'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="35" />
+            <where>id = '8e2faf8a-5f2c-491d-bb6e-8e0b3fb0705e'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="36" />
+            <where>id = '3a99f3cd-cafa-4e9e-9ade-7798003cbbe9'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="5" />
+            <where>id = '5b601554-11f7-42c2-9469-5b0a8e989862'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="79" />
+            <where>id = '97c6f62a-5aef-4058-b62a-4bdba2fc3010'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="37" />
+            <where>id = 'f1f46746-201c-4cf3-9a48-a9c3a9083601'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="6" />
+            <where>id = '15bb0f10-02dd-46a3-ab02-d1ef0487483d'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="38" />
+            <where>id = '5bbc42d9-f637-41c2-bcf9-d19e5eb5af82'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="7" />
+            <where>id = '32b986f7-a3e8-4a8b-800a-30e5aedc790f'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="39" />
+            <where>id = 'e08db82a-e006-44a5-8376-2498869fd0d4'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="8" />
+            <where>id = 'dc8954ed-f114-4533-a43b-7ca686dad04c'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="40" />
+            <where>id = 'd54cc43e-4739-427f-a0fa-3f4d89925926'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="41" />
+            <where>id = '51788063-77f8-41eb-a51b-775bb55cbc10'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="10" />
+            <where>id = '260bb373-1688-486f-b4e2-9cd11e978fca'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="42" />
+            <where>id = 'd778b86f-3496-4dce-85d6-9062622875d8'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="43" />
+            <where>id = '0288e43c-6c24-4b34-b621-8ddf0a2045f8'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="11" />
+            <where>id = '45c5fa11-84a8-44ba-893d-e6673b5ed0f4'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="44" />
+            <where>id = '9456f956-233b-42dc-a3a4-032cbc4925ca'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="23" />
+            <where>id = 'e3ee9606-35e3-498e-8669-6b5641d54833'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="24" />
+            <where>id = 'd452d57d-8dc5-43e5-81c7-4e5e824731ef'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="45" />
+            <where>id = '86f8b958-9599-48f7-ad40-9f7e8bf6a233'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="46" />
+            <where>id = '80b4e48b-e991-4722-abad-959e31b38877'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="47" />
+            <where>id = '3e47597c-b083-4b04-bf9b-ed34cf671b79'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="48" />
+            <where>id = '6dbe197f-3368-4f56-8e3e-003cefd01750'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="49" />
+            <where>id = 'e2da17d8-98e6-47f3-bd3b-ee26ea4b2ca6'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="12" />
+            <where>id = '76049fa1-93be-44ff-95e3-383c8528d777'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="13" />
+            <where>id = '36144276-aa58-419c-a533-b1319b773b30'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="77" />
+            <where>id = '2e9f86a0-3503-47e5-9d3d-4bd017e2585f'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="50" />
+            <where>id = '0eed5824-ea12-4bef-93f5-c7baa8e19919'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="51" />
+            <where>id = '58fb2e35-7a5c-46b9-b91f-63fed4c0cadf'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="83" />
+            <where>id = '55557bb4-061f-4dc8-8ec7-6c9a0721dcc3'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="52" />
+            <where>id = '4b4e2331-5a9c-4394-8bc6-337bf4d43e38'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="53" />
+            <where>id = '88100d23-3955-4ddf-8e35-4950c77e5052'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="54" />
+            <where>id = 'e06bb7b6-959a-43bb-9c57-75a44b2b3453'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="55" />
+            <where>id = '42d5c50d-2aa8-487d-9b2c-6facd47b5547'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="56" />
+            <where>id = 'd041bf45-f383-4218-b41c-fab5ec4dff48'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="57" />
+            <where>id = '5b466476-242c-4891-b982-a06c6f5f095c'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="58" />
+            <where>id = 'c9d61b44-e684-4ae7-8558-356be96011f3'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="59" />
+            <where>id = '4cd2b506-14b0-4fb0-b517-5a95adf957cd'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="25" />
+            <where>id = '2c308a6c-df37-44fe-8d0c-e22d0d3a7f45'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="60" />
+            <where>id = '03d74434-ac48-4aed-a151-25fdbf49269d'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="61" />
+            <where>id = 'b3e92d7b-a61a-4048-b4a8-7fe975a34144'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="63" />
+            <where>id = 'c86143f3-c739-47b3-8327-e0b98804a902'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="78" />
+            <where>id = '2d4b4378-3162-4c19-9cb3-1007a04d5671'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="64" />
+            <where>id = '636e47ee-936a-4a16-b067-763adaa48264'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="14" />
+            <where>id = 'c66a4461-ea71-4cbb-ad8c-07eebdb9a751'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="65" />
+            <where>id = '65d5a12e-61f7-4f3c-b547-082e2aa5a105'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="66" />
+            <where>id = 'f2952003-1103-4c69-b75a-c932a70311dd'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="67" />
+            <where>id = 'ee92ab27-5930-4cef-9d2e-5b6bed028e84'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="26" />
+            <where>id = 'd8c635d9-bc1b-4b97-8af2-91e4a0738ed2'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="68" />
+            <where>id = '4eb1e12e-95a8-43df-9c3c-a6326d96ffae'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="16" />
+            <where>id = '5681a12a-d099-46ab-bc52-c8252c411aa0'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="69" />
+            <where>id = '91c2b62a-8721-4af7-bd7b-a29bd3bb3f02'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="70" />
+            <where>id = 'b6069c6a-239a-4c30-bf2f-1a7007bef455'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="71" />
+            <where>id = 'e15712fb-0ab9-4fe5-b095-5277542fcefe'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="17" />
+            <where>id = '818cd676-ca8c-4f95-9e8a-10a3c4b744d9'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="72" />
+            <where>id = '61258fff-d0d0-4d11-8867-88b2c49f23a9'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="18" />
+            <where>id = 'bd066ed2-743c-46fc-b56f-71c6b6b52997'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="73" />
+            <where>id = '8ee841b4-2b0b-498a-b7f6-a7c6eee1fa6e'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="27" />
+            <where>id = '5b8e642b-f9cc-4913-a679-d6389a31f1e8'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="19" />
+            <where>id = '84114833-8b29-413f-978a-187c6f816182'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="74" />
+            <where>id = '4493ec2f-e18a-4f1b-8217-113d15f5c3b1'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="20" />
+            <where>id = 'c4a68929-1931-4fcf-8889-4d6d54ba7593'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="21" />
+            <where>id = 'cab95ab9-b92d-48e5-a6b0-0db56966d8bc'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="87" />
+            <where>id = '72633d5e-486a-4f5c-856b-4ef8cc9adf18'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="89" />
+            <where>id = '692f0fe1-3d5b-4d80-8147-b361a7f13d7a'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="32" />
+            <where>id = '5adf6784-f86e-43ab-8618-921cbaa1625b'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="9" />
+            <where>id = 'b159f08e-2619-4817-92fe-54993432e9be'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="15" />
+            <where>id = 'e17a3746-db91-4229-ae96-662950ce75b1'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="76" />
+            <where>id = '7ca0e9c1-ef34-4710-ba1d-904e2fa97375'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="86" />
+            <where>id = 'd3b18379-ea4f-4aae-a6bd-d790fe8052e3'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="29" />
+            <where>id = '8fb7b6ab-bae7-4251-b8d7-9c46de2d1f8d'</where>
+        </update>
+
+        <update tableName="reference">
+            <column name="region_id" value="75" />
+            <where>id = '621464fc-d021-4024-a926-2dc75b2fffe4'</where>
+        </update>
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,781 @@
+id,type,value,parent_id,indelible
+'72290dbd-bd58-4d28-89f4-5b8d7d7af0bc','OBJECT_STATUS','Перспективный',null,true
+'08ebe7d6-92d4-4fc8-a5e7-842df357d6bc','OBJECT_STATUS','Действующий',null,true
+'48c43465-d171-459e-9b9c-8e0990dd6413','OBJECT_STATUS','Выведен из эксплуатации      ',null,true
+'b2d9bf90-4904-4420-bb15-efffbb68cb0a','OBJECT_STATUS','Строящийся',null,true
+'9d2d962c-61d2-4671-bdf8-22f21c5a2476','OBJECT_STATUS','Рассмотрение инвестиций',null,true
+
+'4d8cd9ad-5e0f-4277-b15c-c1ff111c2e41','WASTE_MANAGEMENT_TYPE','Обработка ТКО',null,true
+'d2a15470-525d-45eb-acdd-ad2259bc6a4f','WASTE_MANAGEMENT_TYPE','Утилизация ТКО',null,true
+'94c47925-8add-482a-8818-f0970bf5ad51','WASTE_MANAGEMENT_TYPE','Обезвреживание ТКО',null,true
+'202cd4d3-d56d-4043-9801-b66bf29275eb','WASTE_MANAGEMENT_TYPE','Размещение ТКО',null,true
+
+'1ec1e9f9-b27f-435d-8914-24f9793a9ece','OBJECT_TYPE','Объект обработки отходов',null,true
+'b988586c-a56c-4622-b7a2-d0f1a62279ca','OBJECT_TYPE','Объект утилизации отходов',null,true
+'9aec93b5-182f-4b7c-98db-0fbba6e77213','OBJECT_TYPE','Объект обезвреживания отходов',null,true
+'2cc6f41a-0bb8-4bc1-aea5-4ceda8e59441','OBJECT_TYPE','Объект размещения отходов',null,true
+
+'fe87a270-a839-4197-97be-3a51279c6a00','TKO_OBJECT_TYPE','Полигон (ГРОРО)',null,null
+'6e359927-ebae-494a-be45-9028f0a1bf46','TKO_OBJECT_TYPE','Временный полигон',null,null
+'3e8ed617-f430-4d4b-a79b-ca4a7c7d0f8b','TKO_OBJECT_TYPE','Не используемый объект размещения',null,null
+'3cd2517f-7fc9-4558-9be3-2a834f895f1d','TKO_OBJECT_TYPE','Объект сортировки',null,null
+'7cefdca7-cdc8-4ece-9a5d-79fcf3b4a50f','TKO_OBJECT_TYPE','Объект обезвреживания',null,null
+'bb8ed9e4-1f97-4228-add6-83ce8b2f3429','TKO_OBJECT_TYPE','Инсинератор',null,null
+'c2f6e3d3-56f5-4ba2-8767-d20e9ae91494','TKO_OBJECT_TYPE','Объект энергетической утилизации',null,null
+'9dea9a09-d5bf-439c-8b49-4e76da371dc6','TKO_OBJECT_TYPE','Объект утилизации',null,null
+'bd62c4d0-1814-432f-b6b6-1598a5f0a451','TKO_OBJECT_TYPE','Объект хранения',null,null
+'744a1874-e1ba-4693-b3ff-bbac5c7e8ca6','TKO_OBJECT_TYPE','Объект захоронения',null,null
+
+'c9f90ac9-9dcf-4f05-8ce8-2ba997d91bc3','WASTE_CATEGORY','Пластик',null,null
+'96186beb-2427-43ad-b298-4eccefa4261a','WASTE_CATEGORY','Бумага и картон',null,null
+'069b5efb-f901-4a89-99f6-c2ef5d609052','WASTE_CATEGORY','Черные металлы',null,null
+'e2c54b25-0d03-4108-883d-3eca2dc7416a','WASTE_CATEGORY','Цветные металлы',null,null
+'9363a478-d748-453c-a21b-79eae6a02479','WASTE_CATEGORY','Стекло',null,null
+'4beb634b-8466-4c92-a0f0-9b6add0a68ce','WASTE_CATEGORY','Дерево',null,null
+'6a164308-c9d7-4c73-af60-c874a53fdece','WASTE_CATEGORY','Резина и кожа',null,null
+'940c66e3-2942-4df8-a8eb-c7af1720ffe1','WASTE_CATEGORY','Текстиль',null,null
+'779cf9e3-eaae-47da-b5ae-db785309b855','WASTE_CATEGORY','Пищевые отходы',null,null
+'cda01c7c-e3a1-4b93-b67c-4387909d9581','WASTE_CATEGORY','Специальные отходы',null,null
+'a9601d54-dc3c-41fc-a9ae-747c6afeecf0','WASTE_CATEGORY','RDF',null,null
+'a7aa7194-b973-4775-8046-e024bbedced0','WASTE_CATEGORY','Компост',null,null
+
+'85336c1c-80c0-4eef-8d46-71af3bb063d2','OWNERSHIP_TYPE','Собственность граждан и юридических лиц (частная собственность)',null,null
+'cb9ad002-5f37-4a67-a30d-996724242f49','OWNERSHIP_TYPE','Собственность Российской Федерации (федеральная собственность) на землю',null,null
+'5d3503e6-5be4-4a93-b3e8-ff8a73035bd5','OWNERSHIP_TYPE','Собственность на землю субъектов Российской Федерации',null,null
+'92501215-7aa8-45a1-8a77-639041edd3c5','OWNERSHIP_TYPE','Муниципальная собственность на землю',null,null
+'529a7ad0-34bb-40e9-973e-45970b592bea','OWNERSHIP_TYPE','Государственная собственность не разграничена',null,null
+
+'7fbb03c1-9a56-4a6a-9bd7-f58444af74f3','LAND_CATEGORY','Земли сельскохозяйственного назначения',null,null
+'ea6b02c0-df80-4b84-86d7-acd0497b810e','LAND_CATEGORY','Земли населенных пунктов',null,null
+'afc26a9a-9d54-4843-916d-18a668464c4c','LAND_CATEGORY','Земли промышленности, энергетики, транспорта, связи, радиовещания, телевидения, информатики, земли для обеспечения космической деятельности, земли обороны, безопасности и земли иного специального назначения',null,null
+'c52b30c3-c5fe-43f7-b381-b492e71c86cc','LAND_CATEGORY','Земли особо охраняемых территорий и объектов',null,null
+'a304bc32-07ea-40d5-92b2-38f535b13b20','LAND_CATEGORY','Земли лесного фонда',null,null
+'33a57047-dac8-4a81-92bb-d1af82724ab9','LAND_CATEGORY','Земли водного фонда',null,null
+'bffaa03b-4479-48c9-9c41-1cc3f761800e','LAND_CATEGORY','Земли запаса',null,null
+'197fbaeb-b667-4c1d-99bc-6a68eb0fe0d7','LAND_CATEGORY','Категория не установлена',null,null
+
+'c97d44cc-b68d-43c7-8c45-fd3a04327014','ALLOWED_USING_TYPE','Сельскохозяйственное использование',null,null
+'e20f09b9-3a0e-417f-829b-61ead7a27283','ALLOWED_USING_TYPE','Растениеводство',null,null
+'3fa650b2-2a62-4c14-b1ff-73c8e3eda87c','ALLOWED_USING_TYPE','Выращивание зерновых и иных сельскохозяйственных культур',null,null
+'e59a1b80-096a-4156-8d2d-f91fee9a0586','ALLOWED_USING_TYPE','Овощеводство',null,null
+'e4a1eca7-1b73-47ab-81e2-778c9a06dcec','ALLOWED_USING_TYPE','Выращивание тонизирующих, лекарственных, цветочных культур',null,null
+'6eac2dc1-57d5-498a-a248-f1900e6c1641','ALLOWED_USING_TYPE','Садоводство',null,null
+'8c9dca7c-5493-417d-bfad-69c17fa8585f','ALLOWED_USING_TYPE','Выращивание льна и конопли',null,null
+'83e1a317-978c-475e-8675-bfabd3011506','ALLOWED_USING_TYPE','Животноводство',null,null
+'87499c7a-32e3-4973-b7af-8577d4480cf8','ALLOWED_USING_TYPE','Скотоводство',null,null
+'b0e2c9f5-19ba-495f-99ae-590a6910d3cc','ALLOWED_USING_TYPE','Звероводство',null,null
+'4029c34a-8803-4a70-b024-62c9a604e682','ALLOWED_USING_TYPE','Птицеводство',null,null
+'936bc242-5387-4031-ac1a-a1850ab1917e','ALLOWED_USING_TYPE','Свиноводство',null,null
+'cb530682-0520-44ae-b012-e669766e13d1','ALLOWED_USING_TYPE','Пчеловодство',null,null
+'de26751f-81b9-4cc6-8d8c-ff3d98c45125','ALLOWED_USING_TYPE','Рыбоводство',null,null
+'b65b1cc0-9664-41b3-915c-cb5b633e302a','ALLOWED_USING_TYPE','Научное обеспечение сельского хозяйства',null,null
+'9c24562e-70bb-4109-b680-34d54d7bd4c8','ALLOWED_USING_TYPE','Хранение и переработка сельскохозяйственной продукции',null,null
+'00c776fb-a33c-4381-9d5c-32bfbd4d3db6','ALLOWED_USING_TYPE','Ведение личного подсобного хозяйства на полевых участках',null,null
+'dd1dadeb-d8c4-404f-8d6e-22cc21916b16','ALLOWED_USING_TYPE','Питомники',null,null
+'174b65c9-5d15-4e23-bca3-b85f416dcab8','ALLOWED_USING_TYPE','Обеспечение сельскохозяйственного производства',null,null
+'1e627ecd-b340-4b65-beee-2c50cbe240d6','ALLOWED_USING_TYPE','Сенокошение',null,null
+'8d0d579d-5bb1-450c-a852-4c0ad7391b1f','ALLOWED_USING_TYPE','Выпас сельскохозяйственных животных',null,null
+'3f126c6f-1822-4673-a8c7-1c60fa2e8863','ALLOWED_USING_TYPE','Жилая застройка',null,null
+'a304ad52-ee60-4859-b234-7133bfbd6a1e','ALLOWED_USING_TYPE','Для индивидуального жилищного строительства',null,null
+'9cb0a4b8-87bf-450c-8557-3a21f88e9764','ALLOWED_USING_TYPE','Малоэтажная многоквартирная жилая застройка',null,null
+'0faadc33-73d7-4aeb-99f7-273ec4318682','ALLOWED_USING_TYPE','Для ведения личного подсобного хозяйства (приусадебный земельный участок)',null,null
+'2d3a649c-c524-4668-afc4-9a60cd399e2d','ALLOWED_USING_TYPE','Блокированная жилая застройка',null,null
+'34257943-3b2e-442e-af85-00dfbfe3e3f4','ALLOWED_USING_TYPE','Передвижное жилье',null,null
+'c5761862-2d9a-457b-9d13-0d88360e44f1','ALLOWED_USING_TYPE','Среднеэтажная жилая застройка',null,null
+'17b36849-6114-44b2-81a2-51a9b977813f','ALLOWED_USING_TYPE','Многоэтажная жилая застройка (высотная застройка)',null,null
+'4dd947f7-6343-4bec-b2a3-96c4e2426bd3','ALLOWED_USING_TYPE','Обслуживание жилой застройки',null,null
+'cbbf1632-2441-4beb-9ad5-a8f4cd38381d','ALLOWED_USING_TYPE','Хранение автотранспорта',null,null
+'1c5998df-f031-4c14-aade-00ef46db8da1','ALLOWED_USING_TYPE','Общественное использование объектов капитального строительства',null,null
+'5980e064-9234-4429-8e06-ac4fd3cf9a2e','ALLOWED_USING_TYPE','Коммунальное обслуживание',null,null
+'07156986-85a1-451a-8ae2-d7796cd5769f','ALLOWED_USING_TYPE','Предоставление коммунальных услуг',null,null
+'a90ac8b7-adc8-46ac-83cb-b01aebcb0130','ALLOWED_USING_TYPE','Административные здания организаций, обеспечивающих предоставление коммунальных услуг',null,null
+'fc33f739-08a2-4bcd-a73e-7978115565da','ALLOWED_USING_TYPE','Социальное обслуживание',null,null
+'b8d90e20-2441-4fdd-8df1-9cd027335eea','ALLOWED_USING_TYPE','Дома социального обслуживания',null,null
+'461ee1a7-072f-42ba-95e0-7f6482bd5b10','ALLOWED_USING_TYPE','Оказание социальной помощи населению',null,null
+'59ea2d0a-c49b-4cd0-bd74-0470bed2bf30','ALLOWED_USING_TYPE','Оказание услуг связи',null,null
+'1a28de41-a35e-4c62-aa5c-e1895bac076e','ALLOWED_USING_TYPE','Общежития',null,null
+'fb476ef7-380c-4d81-9069-b5440c13a77f','ALLOWED_USING_TYPE','Бытовое обслуживание',null,null
+'d2f7ee3b-b51b-40e8-8504-e4be3c84c12e','ALLOWED_USING_TYPE','Здравоохранение',null,null
+'ca15e5c3-3c80-40a6-a8be-c31e448e7be7','ALLOWED_USING_TYPE','Амбулаторно-поликлиническое обслуживание',null,null
+'2f517148-d044-48c5-9c3e-0393d1893ef8','ALLOWED_USING_TYPE','Стационарное медицинское обслуживание',null,null
+'84c3a532-af4c-47fe-a4f0-92c3518aad48','ALLOWED_USING_TYPE','Медицинские организации особого назначения',null,null
+'5fa702ff-c940-4691-8c07-80b766e08233','ALLOWED_USING_TYPE','Образование и просвещение',null,null
+'3c203a94-8b64-4d9e-b040-10621551bcbd','ALLOWED_USING_TYPE','Дошкольное, начальное и среднее общее образование',null,null
+'b5e1d811-6754-4336-bb21-155623fc7d34','ALLOWED_USING_TYPE','Среднее и высшее профессиональное образование',null,null
+'46c10eea-3554-419c-aea9-4aeed777648c','ALLOWED_USING_TYPE','Культурное развитие',null,null
+'ee54e5f7-5327-4fb8-ac7c-39e5fc0cada1','ALLOWED_USING_TYPE','Объекты культурно-досуговой деятельности',null,null
+'718cf45d-cc8d-487d-8932-19d969faa761','ALLOWED_USING_TYPE','Парки культуры и отдыха',null,null
+'21c97087-c641-4db1-8a7e-2caed3aebde0','ALLOWED_USING_TYPE','Цирки и зверинцы',null,null
+'ee3e61c1-0bb7-491d-9d64-7f0a06d61628','ALLOWED_USING_TYPE','Религиозное использование',null,null
+'2b426153-1eb1-4a75-81e4-1008d822e012','ALLOWED_USING_TYPE','Осуществление религиозных обрядов',null,null
+'404e2421-a0fb-449a-b437-ef0d0f8bd149','ALLOWED_USING_TYPE','Религиозное управление и образование',null,null
+'7226cfd3-97d6-4868-bf80-254a9ea6b60d','ALLOWED_USING_TYPE','Общественное управление',null,null
+'71637a63-417e-4657-9102-3a66db5051cd','ALLOWED_USING_TYPE','Государственное управление',null,null
+'0cd70eb8-1df7-4a6d-872b-fd7bb4ff158c','ALLOWED_USING_TYPE','Представительская деятельность',null,null
+'59f4504d-6c89-4753-a97c-009607c56978','ALLOWED_USING_TYPE','Обеспечение научной деятельности',null,null
+'69b73f21-4019-4f77-8dc9-99fcb040839c','ALLOWED_USING_TYPE','Обеспечение деятельности в области гидрометеорологии и смежных с ней областях',null,null
+'529f66b8-bc60-4d6e-b9f9-ad3de7c755d9','ALLOWED_USING_TYPE','Проведение научных исследований',null,null
+'ffd92a11-05b6-40c0-bab8-002ca792b8e4','ALLOWED_USING_TYPE','Проведение научных испытаний',null,null
+'72acce0d-60e9-48d5-9a0b-a6ef1c64e27e','ALLOWED_USING_TYPE','Ветеринарное обслуживание',null,null
+'356525dc-5192-4473-9886-1e3e0ac344e0','ALLOWED_USING_TYPE','Амбулаторное ветеринарное обслуживание',null,null
+'549d3e1d-1ae0-4056-8522-b6380e92be0e','ALLOWED_USING_TYPE','Приюты для животных',null,null
+'a49949c3-1cd6-4286-84a5-8b20669c885b','ALLOWED_USING_TYPE','Предпринимательство',null,null
+'4b261054-f0dc-4f36-9625-04ff684ca7d1','ALLOWED_USING_TYPE','Деловое управление',null,null
+'6a3ead5f-6fbb-41aa-8a10-e56c083aef4c','ALLOWED_USING_TYPE','Объекты торговли (торговые центры, торгово-развлекательные центры (комплексы)',null,null
+'ce7a27ee-2f31-471a-ab01-7407dd9975a4','ALLOWED_USING_TYPE','Рынки',null,null
+'46e7022f-5be4-47ea-93a6-3ec32327fd37','ALLOWED_USING_TYPE','Магазины',null,null
+'066f8a55-148a-4f47-9ab9-b6d1ddff1e3d','ALLOWED_USING_TYPE','Банковская и страховая деятельность',null,null
+'9a04f9e9-fee8-4e4c-bb59-92750f41273f','ALLOWED_USING_TYPE','Общественное питание',null,null
+'7341c533-786a-4422-8f87-fa25688fc746','ALLOWED_USING_TYPE','Гостиничное обслуживание',null,null
+'e7de7045-11f7-45de-99de-431a19426df0','ALLOWED_USING_TYPE','Развлечения',null,null
+'f587656b-f196-422e-9cd7-acaaa6c72f59','ALLOWED_USING_TYPE','Развлекательные мероприятия',null,null
+'19414383-8cb2-4228-b6fb-dcc727956eaa','ALLOWED_USING_TYPE','Проведение азартных игр',null,null
+'10cfcf68-2784-4720-a6f9-4d2b5a3f50e3','ALLOWED_USING_TYPE','Проведение азартных игр в игорных зонах',null,null
+'de1ed9d6-b9cf-4be6-abdc-ad633f021a6a','ALLOWED_USING_TYPE','Служебные гаражи',null,null
+'6688fbc9-e8d6-4456-a18f-e7d42111a1b7','ALLOWED_USING_TYPE','Объекты дорожного сервиса',null,null
+'29401367-d74d-4b94-9168-5794a50c2abf','ALLOWED_USING_TYPE','Заправка транспортных средств',null,null
+'9d17b4db-8f65-4520-ae34-ac6bb95db2db','ALLOWED_USING_TYPE','Обеспечение дорожного отдыха',null,null
+'2f9f363d-8a66-41f1-a5ac-da3091f728dd','ALLOWED_USING_TYPE','Автомобильные мойки',null,null
+'8f0e7005-741d-4942-8fbc-e58cf99f0cd3','ALLOWED_USING_TYPE','Ремонт автомобилей',null,null
+'727632c7-aab2-4dda-810c-3e575792e579','ALLOWED_USING_TYPE','Выставочно-ярмарочная деятельность',null,null
+'37ce9449-149c-497d-bb28-a3a2eecd50bb','ALLOWED_USING_TYPE','Отдых (рекреация)',null,null
+'990fc5ea-d736-4b0e-b6cf-bd77af11b742','ALLOWED_USING_TYPE','Спорт',null,null
+'9b5c00a9-bf17-4306-b5b7-3d82da8e81d6','ALLOWED_USING_TYPE','Обеспечение спортивно-зрелищных мероприятий',null,null
+'c27ddc44-9025-4aa4-9cc7-39017ea76f13','ALLOWED_USING_TYPE','Обеспечение занятий спортом в помещениях',null,null
+'ad76acee-42f6-4031-b946-609e73e34a71','ALLOWED_USING_TYPE','Площадки для занятий спортом',null,null
+'58510888-5b97-491a-ad2f-34fa8af4b408','ALLOWED_USING_TYPE','Оборудованные площадки для занятий спортом',null,null
+'65b44745-5260-4bf9-abd6-c10b1ec92cd8','ALLOWED_USING_TYPE','Водный спорт',null,null
+'8674d7e1-098c-4e03-a814-eee90ac6e034','ALLOWED_USING_TYPE','Авиационный спорт',null,null
+'66dd2c4b-37cb-45da-9daa-76b611183c4e','ALLOWED_USING_TYPE','Спортивные базы',null,null
+'6e520081-38ad-4bf5-95d2-f6ece64fd4ab','ALLOWED_USING_TYPE','Природно-познавательный туризм',null,null
+'02916c1d-bc73-44fc-aee1-08787fd955c3','ALLOWED_USING_TYPE','Туристическое обслуживание',null,null
+'7eb678b9-55a8-451f-98fd-6de913c63a0c','ALLOWED_USING_TYPE','Охота и рыбалка',null,null
+'27f4615f-db17-4e3f-9cec-86ced29768b0','ALLOWED_USING_TYPE','Причалы для маломерных судов',null,null
+'faeeee84-9856-4b78-b38f-6fa80a416897','ALLOWED_USING_TYPE','Поля для гольфа или конных прогулок',null,null
+'6ef4ea71-68cb-474c-b2ea-1566f64acea1','ALLOWED_USING_TYPE','Производственная деятельность',null,null
+'d5180727-0107-43dd-9c7e-fd408b96f319','ALLOWED_USING_TYPE','Недропользование',null,null
+'dbabc11a-3191-4469-ac28-e14a3c8688d0','ALLOWED_USING_TYPE','Тяжелая промышленность',null,null
+'4d6a3c01-0bce-4bc3-8e9b-79b8498c11a7','ALLOWED_USING_TYPE','Автомобилестроительная промышленность',null,null
+'becc57a1-8c7e-434a-af5a-0d3611b0562d','ALLOWED_USING_TYPE','Легкая промышленность',null,null
+'9fee3901-532b-4475-9d18-9be97dd82cb2','ALLOWED_USING_TYPE','Фармацевтическая промышленность',null,null
+'1541659b-08e1-4f7f-902f-e4890e975d29','ALLOWED_USING_TYPE','Пищевая промышленность',null,null
+'63a0387a-48ca-459d-a0db-9eef75606cdb','ALLOWED_USING_TYPE','Нефтехимическая промышленность',null,null
+'bd1bf9de-4c1b-4883-a61d-b0d4577a016e','ALLOWED_USING_TYPE','Строительная промышленность',null,null
+'64f1d2c2-5c1a-413c-b41b-db0cb8fea602','ALLOWED_USING_TYPE','Энергетика',null,null
+'8b09acf4-9cc5-45e8-9fdf-dae745e4c183','ALLOWED_USING_TYPE','Атомная энергетика',null,null
+'2358f950-0151-4a85-a04a-51a3cbbe3bb4','ALLOWED_USING_TYPE','Связь',null,null
+'111ca1ba-8173-4f23-93f5-649baf5ed484','ALLOWED_USING_TYPE','Склады',null,null
+'8c86823a-cc32-49fc-8292-1ccf4427a3d5','ALLOWED_USING_TYPE','Складские площадки',null,null
+'83c7199f-b3c9-47f6-9990-41f1d35a01ab','ALLOWED_USING_TYPE','Обеспечение космической деятельности',null,null
+'9610184c-2408-45f4-b12b-7ccba5fb72de','ALLOWED_USING_TYPE','Целлюлозно-бумажная промышленность',null,null
+'bdaf2cb5-791d-46db-a428-dd7735611b28','ALLOWED_USING_TYPE','Научно-производственная деятельность',null,null
+'d6b07647-7c9b-41d0-949a-611e178347ce','ALLOWED_USING_TYPE','Транспорт',null,null
+'70bcc981-5928-4a54-93e2-111d794032c0','ALLOWED_USING_TYPE','Железнодорожный транспорт',null,null
+'adca89df-261c-4535-8bc9-448cb445dbe7','ALLOWED_USING_TYPE','Железнодорожные пути',null,null
+'7f8ef868-59f1-4fed-8aaa-db33bd6d4599','ALLOWED_USING_TYPE','Обслуживание железнодорожных перевозок',null,null
+'59787e47-c769-44d8-8b2d-cca4bb768661','ALLOWED_USING_TYPE','Автомобильный транспорт',null,null
+'d26c01ef-9ce8-4657-8ad9-486bd2416f3f','ALLOWED_USING_TYPE','Размещение автомобильных дорог',null,null
+'0b4eb222-7f49-48f1-9d8c-d9e520971c1d','ALLOWED_USING_TYPE','Обслуживание перевозок пассажиров',null,null
+'be587a45-e0b1-4eb7-ab36-a7d4c90978af','ALLOWED_USING_TYPE','Стоянки транспорта общего пользования',null,null
+'92b8879e-ac8a-48ef-96b2-4903b2bce7f0','ALLOWED_USING_TYPE','Водный транспорт',null,null
+'7a48a12d-05d6-4dea-9719-7ed044b7b23c','ALLOWED_USING_TYPE','Воздушный транспорт',null,null
+'b5b3ff35-8564-4e13-88ba-75e40aff7745','ALLOWED_USING_TYPE','Трубопроводный транспорт',null,null
+'048e2242-8c5b-47ee-91c4-76483ca05331','ALLOWED_USING_TYPE','Внеуличный транспорт',null,null
+'6644d51c-02ca-4a11-825f-0d720244a58a','ALLOWED_USING_TYPE','Обеспечение обороны и безопасности',null,null
+'16ccf2ee-732f-4601-bd32-c4bc4ad4f508','ALLOWED_USING_TYPE','Обеспечение вооруженных сил',null,null
+'71b6cf95-07c4-4583-903e-814a83cd4d46','ALLOWED_USING_TYPE','Охрана Государственной границы Российской Федерации',null,null
+'6eaf92d4-ca4f-44bd-ae03-34aa262d1398','ALLOWED_USING_TYPE','Обеспечение внутреннего правопорядка',null,null
+'524991c7-4044-49d8-934b-ae4711f26ecc','ALLOWED_USING_TYPE','Обеспечение деятельности по исполнению наказаний',null,null
+'a2b6662c-e6fc-4a66-9524-55488a7ce24f','ALLOWED_USING_TYPE','Деятельность по особой охране и изучению природы',null,null
+'ef2835fb-50ee-4718-81cf-8b385c8c3fa0','ALLOWED_USING_TYPE','Охрана природных территорий',null,null
+'6bb333a5-5045-493c-8ff2-2741f0bc30cb','ALLOWED_USING_TYPE','Курортная деятельность',null,null
+'6e157b76-d827-4003-8ecb-62e5d02d4880','ALLOWED_USING_TYPE','Санаторная деятельность',null,null
+'9ab1cdab-1673-497f-a627-7ba880dc7804','ALLOWED_USING_TYPE','Историко-культурная деятельность',null,null
+'ce33c71a-f110-491c-b625-44600f285043','ALLOWED_USING_TYPE','Использование лесов',null,null
+'b5b1d786-c898-4333-b195-85b3c6d76023','ALLOWED_USING_TYPE','Заготовка древесины',null,null
+'a759ccde-c536-4c7a-95a3-c232cbf58028','ALLOWED_USING_TYPE','Лесные плантации',null,null
+'811722b9-c70a-48a1-8451-897259268d0e','ALLOWED_USING_TYPE','Заготовка лесных ресурсов',null,null
+'fa1a8a54-44dc-4b51-a24a-d52637e019d5','ALLOWED_USING_TYPE','Резервные леса',null,null
+'f3ad126a-76cb-460d-9375-6b3609d3b9ce','ALLOWED_USING_TYPE','Водные объекты',null,null
+'a6226bed-6843-4940-9c44-c347f3a7f6c0','ALLOWED_USING_TYPE','Общее пользование водными объектами',null,null
+'94ec404b-ee8e-498e-a237-f04d35a8eedc','ALLOWED_USING_TYPE','Специальное пользование водными объектами',null,null
+'c61146bd-9b41-4d04-9fb1-dc1c866ff9e1','ALLOWED_USING_TYPE','Гидротехнические сооружения',null,null
+'795e776b-290e-412b-be19-47911381c30e','ALLOWED_USING_TYPE','Земельные участки (территории) общего пользования',null,null
+'d1db0083-fb50-4a85-969f-8b69fb653fc5','ALLOWED_USING_TYPE','Улично-дорожная сеть',null,null
+'ab812a7a-c440-4a11-930f-0f905f5afba0','ALLOWED_USING_TYPE','Благоустройство территории',null,null
+'4ec988a8-bc29-4c6d-8ec6-cd2169895e8f','ALLOWED_USING_TYPE','Ритуальная деятельность',null,null
+'f19820be-7f4d-472a-94b9-63f8555ef46c','ALLOWED_USING_TYPE','Специальная деятельность',null,null
+'a63bf5cc-7a70-4b77-91b0-e57797f875c5','ALLOWED_USING_TYPE','Запас',null,null
+'6b8c0449-029b-47e6-834c-aed6cf34e727','ALLOWED_USING_TYPE','Земельные участки общего назначения',null,null
+'eed790cf-afb8-4cb8-9447-48e7d742796c','ALLOWED_USING_TYPE','Ведение огородничества',null,null
+'2f85b5d5-bd80-495e-a8de-4cdcf9178ad4','ALLOWED_USING_TYPE','Ведение садоводства',null,null
+
+'0d5d6fa2-da24-4978-a61c-4e177823d8d3','ROAD_TYPE','Автомобильные дороги федерального значения',null,null
+'e108ade1-cc9b-4c50-b302-b9fe2c54a642','ROAD_TYPE','Автомобильные дороги регионального или межмуниципального значения',null,null
+'0882af70-7a0e-450e-a4b7-890c6f8d574f','ROAD_TYPE','Автомобильные дороги местного значения',null,null
+'bff43edb-985c-46a3-a05d-c74c12e9c381','ROAD_TYPE','Частные автомобильные дороги',null,null
+
+'528f93b6-d293-49b2-a92a-15c06cdbb371','COORDINATE_SYSTEM','ГСК-2011 - государственная геодезическая система координат 2011 года',null,null
+'e87d9785-26c3-44d6-b3d6-d46250949824','COORDINATE_SYSTEM','ПЗ-90.11 - общеземная геоцентрическая система координат "Параметры Земли 1990 года"',null,null
+'a8e66296-da5b-4d30-b5e0-c261e62286bd','COORDINATE_SYSTEM','СК-95 - система геодезических координат 1995 года',null,null
+'97e98593-f7f0-435c-81be-2c47accf8394','COORDINATE_SYSTEM','СК64 - система геодезических координат 1964 года',null,null
+'fdf986ef-0de2-4598-9f24-ce012118912a','COORDINATE_SYSTEM','СК63 - система геодезических координат 1963 года',null,null
+'15fa1986-cb4f-4fa7-8c9f-4bab07aaa7bb','COORDINATE_SYSTEM','СК47 - система геодезических координат 1947 года',null,null
+'6b40b81f-5ec8-4bb9-999d-bb135991bfa2','COORDINATE_SYSTEM','СК-42 - единая система геодезических координат 1942 года',null,null
+'6a66719b-4742-4229-955a-eb1411073f77','COORDINATE_SYSTEM','WGS 84 - всемирная система геодезических параметров Земли 1984 года',null,null
+'d304da0a-da51-4573-b83d-85a3ac6839f7','COORDINATE_SYSTEM','МСК-01 Республика Адыгея',null,null
+'9ec8a940-38b7-4e15-a80d-f43c838b2018','COORDINATE_SYSTEM','МСК-02 Республика Башкортостан',null,null
+'e5bbe512-b163-40b5-8224-2157d56f3c02','COORDINATE_SYSTEM','МСК-03 Республика Бурятия',null,null
+'6456712f-19aa-423a-b912-8338d4cadfbd','COORDINATE_SYSTEM','МСК-04 Республика Алтай',null,null
+'5d2ad16a-6046-4116-80df-05ec4eb25bb6','COORDINATE_SYSTEM','МСК-05 Республика Дагестан',null,null
+'2f9b10fe-eab6-4b95-89bc-1ce618229b02','COORDINATE_SYSTEM','МСК-06 Республика Ингушетия',null,null
+'dab7cd42-776b-4d91-b61a-06516c7db50b','COORDINATE_SYSTEM','МСК-07 Кабардино-Балкарская Республика',null,null
+'48154e06-4a00-40d7-8517-2561c4a978aa','COORDINATE_SYSTEM','МСК-08 Республика Калмыкия',null,null
+'91fc0750-41bd-4569-95be-9dd60a7bcb8d','COORDINATE_SYSTEM','МСК-09 Республика Карачаево-Черкесия',null,null
+'0941c88d-a2ee-4da6-9959-0774c8246ed5','COORDINATE_SYSTEM','МСК-10 Республика Карелия',null,null
+'835a27f5-cccf-4753-b281-5c92b06bdde4','COORDINATE_SYSTEM','МСК-11 Республика Коми',null,null
+'329a4f2c-4980-4fcd-a0e4-4a660324df24','COORDINATE_SYSTEM','МСК-12 Республика Марий Эл',null,null
+'2ceee238-d422-4798-afb2-e2b9f77cf968','COORDINATE_SYSTEM','МСК-13 Республика Мордовия',null,null
+'70c2d4ef-e0d1-469d-9836-f6a83e3baabd','COORDINATE_SYSTEM','МСК-14 Республика Саха (Якутия)',null,null
+'23291d3b-d3ad-44d0-8c21-3102bb3f14bc','COORDINATE_SYSTEM','МСК-15 Северная Осетия - Алания',null,null
+'8973c165-7377-4ec8-9cbd-a975dc369e19','COORDINATE_SYSTEM','МСК-16 Республика Татарстан',null,null
+'c240c9bc-c580-4009-9932-c7811a6e62fa','COORDINATE_SYSTEM','МСК-18 Удмуртская Республика',null,null
+'dc4cc2a8-aa36-418b-86d2-59b34234b942','COORDINATE_SYSTEM','МСК-20 Чеченская Республика',null,null
+'31fcd8c8-6374-4641-be70-de5833f8726d','COORDINATE_SYSTEM','МСК-21 Чувашская Республика',null,null
+'4f7c8fd4-b326-4105-9312-769d73014088','COORDINATE_SYSTEM','МСК-22 Алтайский край',null,null
+'4c5cea50-3af6-4a58-bdeb-b7585ba12a53','COORDINATE_SYSTEM','МСК-23 Краснодарский край',null,null
+'63d37f9a-790a-470f-9586-82831b3bd124','COORDINATE_SYSTEM','МСК-24 Красноярский край',null,null
+'8b4eafa1-c5ad-4b15-b6e8-6f06be16e35a','COORDINATE_SYSTEM','МСК-25 Приморский край',null,null
+'72e43b4c-2156-428f-96e7-4940199d230c','COORDINATE_SYSTEM','МСК-26 Ставропольский край',null,null
+'5f62d202-36cb-49c6-9a3c-29809ef48503','COORDINATE_SYSTEM','МСК-27 Хабаровский край',null,null
+'e61197d3-50ce-4e86-92c0-061cb078e70d','COORDINATE_SYSTEM','МСК-28 Амурская область',null,null
+'bcc04c89-cf61-438b-b4a9-6f54bd0af728','COORDINATE_SYSTEM','МСК-29 Архангельская область',null,null
+'c2dac02d-f2c9-4ac0-bbff-cb57a87cddaa','COORDINATE_SYSTEM','МСК-30 Астраханская область',null,null
+'7cf8f36c-aa14-478d-9f98-9ff269038208','COORDINATE_SYSTEM','МСК-31 Белгородская область',null,null
+'d1bbce12-82cf-459b-834b-c9256a249d3a','COORDINATE_SYSTEM','МСК-32 Брянская область',null,null
+'c8d12fd6-40f8-4a43-8390-43dc81bf3d7e','COORDINATE_SYSTEM','МСК-33 Владимирская область',null,null
+'7a266709-36af-4ec0-9c51-65e2e0dc0318','COORDINATE_SYSTEM','МСК-34 Волгоградская область',null,null
+'b76cacb4-e425-4e3b-8841-4fd1dd30276f','COORDINATE_SYSTEM','МСК-35 Вологодская область',null,null
+'6d611ccb-37c9-4d1e-807c-2e59c29477ba','COORDINATE_SYSTEM','МСК-36 Воронежская область',null,null
+'517f9a99-d115-4fe2-81fc-2b8eb57e0a43','COORDINATE_SYSTEM','МСК-37 Ивановская область',null,null
+'87c3246c-73ec-4bd3-aaa9-c9fdcacd46c4','COORDINATE_SYSTEM','МСК-38 Иркутская область',null,null
+'5940fe34-b9be-4377-bec9-0167c3d03c56','COORDINATE_SYSTEM','МСК-39 Калининградская область',null,null
+'d7afb95e-11b3-46dc-bd57-3cad0675bb7e','COORDINATE_SYSTEM','МСК-40 Калужская область',null,null
+'24fabe57-2314-497e-8af6-a2155f403229','COORDINATE_SYSTEM','МСК-41 Камчатский край',null,null
+'d87bd399-2c6d-45fe-b6b4-f0b1590a4601','COORDINATE_SYSTEM','МСК-42 Кемеровская область',null,null
+'94a3c975-bd48-412e-8caa-6b4fd050a962','COORDINATE_SYSTEM','МСК-43 Кировская область',null,null
+'7f755121-2e22-4dba-bc31-74f26dfb6b1d','COORDINATE_SYSTEM','МСК-44 Костромская область',null,null
+'c983e88c-af84-4881-a373-8bcabe01e816','COORDINATE_SYSTEM','МСК-45 Курганская область',null,null
+'88fa1a0c-faab-4a59-b8ec-df62d0bfd661','COORDINATE_SYSTEM','МСК-46 Курская область',null,null
+'24c67693-71e6-4e6f-b98b-62de5774c546','COORDINATE_SYSTEM','МСК-47 Ленинградская область',null,null
+'fa46cc62-2cdf-41b3-afa7-15d0bc8dc22d','COORDINATE_SYSTEM','МСК-1964 город Санкт-Петербург',null,null
+'74509eb4-d1d3-4329-ab34-ed7b5f2089e4','COORDINATE_SYSTEM','МСК-48 Липецкая область',null,null
+'a34906b8-f980-4558-b336-a063630f69f3','COORDINATE_SYSTEM','МСК-49 Магаданская область',null,null
+'8d6868ee-2d30-47cb-902f-f5700a020a36','COORDINATE_SYSTEM','МСК-50 Москва и Московская область',null,null
+'36cd8c48-81b1-48ad-bb61-9962b37d6fc8','COORDINATE_SYSTEM','МСК-51 Мурманская область',null,null
+'64535775-e50e-43a9-a40b-6aded7f72973','COORDINATE_SYSTEM','МСК-52 Нижегородская область',null,null
+'60ad02a4-755e-4cef-84e4-cc7ed1b56ea4','COORDINATE_SYSTEM','МСК-53 Новгородская область',null,null
+'7019477f-47d7-411a-b9c5-bb5f25d63379','COORDINATE_SYSTEM','МСК-54 Новосибирская область',null,null
+'1fc4cbdd-9952-46ed-b250-4e83d13e5ea6','COORDINATE_SYSTEM','МСК-55 Омская область',null,null
+'59ab3f03-92a5-493d-88d7-ef85f81e54bc','COORDINATE_SYSTEM','МСК-56 Оренбургская область',null,null
+'888b9956-34dd-47ab-9f15-f6e66d31c7be','COORDINATE_SYSTEM','МСК-57 Орловская область',null,null
+'40b881fc-849e-4595-a55b-200b2bf7348d','COORDINATE_SYSTEM','МСК-58 Пензенская область',null,null
+'f2e94ca5-f261-4607-8d50-3d884610ef0b','COORDINATE_SYSTEM','МСК-59 Пермский край',null,null
+'439b924e-9f23-4b49-b3f2-ef1bd28b1ee9','COORDINATE_SYSTEM','МСК-60 Псковская область',null,null
+'200b9ff8-fdc4-419b-8aa2-31ba6f47fed1','COORDINATE_SYSTEM','МСК-61 Ростовская область',null,null
+'278b6913-47f5-4a1c-bd4b-03462661d0d3','COORDINATE_SYSTEM','МСК-62 Рязанская область',null,null
+'05afa073-5f10-4b6b-80f9-2a6b837720a4','COORDINATE_SYSTEM','МСК-63 Самарская область',null,null
+'b4860c78-b0c7-4543-9e36-31ddacbaec2c','COORDINATE_SYSTEM','МСК-64 Саратовская область',null,null
+'dd856402-0efb-4b85-b6ed-7159c5c5bc57','COORDINATE_SYSTEM','МСК-65 Сахалинская область',null,null
+'f20a1a20-dd7e-4be9-bcfc-c46ab2f5bad4','COORDINATE_SYSTEM','МСК-66 Свердловская область',null,null
+'096608c3-6207-43f3-b053-db5a0ad15557','COORDINATE_SYSTEM','МСК-67 Смоленская область',null,null
+'9c0289b9-6362-4633-a7fe-774b274479f2','COORDINATE_SYSTEM','МСК-68 Тамбовская область',null,null
+'00581503-e7c0-48b0-981c-d81ef0e97e97','COORDINATE_SYSTEM','МСК-69 Тверская область',null,null
+'607e1fb7-8747-461e-8413-4a903c4fffa8','COORDINATE_SYSTEM','МСК-70 Томская область',null,null
+'fd008e13-353e-438e-8e66-34aa53cd6049','COORDINATE_SYSTEM','МСК-71 Тульская область',null,null
+'a5c4fb84-ab54-4517-a7f0-aa44f56f27e3','COORDINATE_SYSTEM','МСК-72 Тюменская область',null,null
+'5fcec43d-5c11-4ee9-8be8-38391bce3fa2','COORDINATE_SYSTEM','МСК-73 Ульяновская область',null,null
+'3d18486b-f88e-49a6-b882-cf3a10f2b469','COORDINATE_SYSTEM','МСК-74 Челябинская область',null,null
+'548ff931-d9a2-403c-aa93-e267d51fb4c5','COORDINATE_SYSTEM','МСК-75 Забайкальский край',null,null
+'20ea09a2-de32-4bad-a705-09cc50a02ab0','COORDINATE_SYSTEM','МСК-76 Ярославская область',null,null
+'1e647d9c-8883-49c7-a244-717870528af5','COORDINATE_SYSTEM','МСК-83 Ненецкий автономный округ',null,null
+'b31f0c1b-c34c-4d23-b2cc-9755f9614289','COORDINATE_SYSTEM','МСК-86 Ханты-Мансийский автономный округ — Югра',null,null
+'628f8dc2-68f2-4533-86e9-b7771b8af03f','COORDINATE_SYSTEM','МСК-87 Чукотский автономный округ',null,null
+
+'2ddbc0b7-6c0e-4203-bf72-f5ad8624f989','DOT_DESCRIPTION','Долговременный межевой знак',null,null
+'84fd09ce-7d95-4544-8806-f5da81b3204b','DOT_DESCRIPTION','Временный межевой знак',null,null
+'75d38311-c8e9-479d-b294-73fc79e1d263','DOT_DESCRIPTION','Закрепление отсутствует',null,null
+
+'2f5a7e47-3411-4ed8-9c36-c31776f1356e','NEGATIVE_OBJECT_CATEGORY','Объекты I категории - объекты, оказывающие значительное негативное воздействие на окружающую среду и относящиеся к областям применения наилучших доступных технологий',null,null
+'83a1300c-a739-4dbc-b9f7-736e849d3685','NEGATIVE_OBJECT_CATEGORY','Объекты II категории - объекты, оказывающие умеренное негативное воздействие на окружающую среду',null,null
+'38ee894a-c77a-49c5-a1ab-05bfe3ce3911','NEGATIVE_OBJECT_CATEGORY','Объекты III категории - объекты, оказывающие незначительное негативное воздействие на окружающую среду',null,null
+'78523987-f285-4cf1-9fae-564e6875d144','NEGATIVE_OBJECT_CATEGORY','Объекты IV категории - объекты, оказывающие минимальное негативное воздействие на окружающую среду',null,null
+
+'c861a4b3-bbda-4ec9-a036-c6c73916138b','DANGER_TYPE','I класс опасности',null,null
+'1819ec9b-06cb-4b6e-bd53-ac3dbf191917','DANGER_TYPE','II класс опасности',null,null
+'997cc7cf-6558-4507-a768-02525b669382','DANGER_TYPE','III класс опасности',null,null
+'49954f0b-ee23-4e19-af79-60daa8fa8f5a','DANGER_TYPE','IV класс опасности',null,null
+'735916f1-c44f-4639-a9e4-3fc365d416b9','DANGER_TYPE','Не применяется',null,null
+
+'1fc76dde-51a2-4aa2-9f93-71479259409e','WASTE_DANGER_CLASS','I класс - чрезвычайно опасные отходы',null,null
+'c7e8e95c-fb31-45b7-9dd7-fe5c05486202','WASTE_DANGER_CLASS','II класс - высокоопасные отходы',null,null
+'c92e25e6-3151-4444-8c5f-44d35edec6e8','WASTE_DANGER_CLASS','III класс - умеренно опасные отходы',null,null
+'20767a64-eadf-4b0a-bf3b-40cf7f29f814','WASTE_DANGER_CLASS','IV класс - малоопасные отходы',null,null
+'9a4deb4d-9c15-4a98-9081-89138fea525d','WASTE_DANGER_CLASS','V класс - практически неопасные отходы',null,null
+
+'13060435-834d-4ac4-bc2d-292aadda7f44','TREATMENT_FACILITIES','Экран грунтовый',null,null
+'a713d230-5d8f-44bc-b41f-3f49901d653f','TREATMENT_FACILITIES','Экран бетонный и железобетонный',null,null
+'b0784812-d067-4877-ba60-1e2ebf7d03aa','TREATMENT_FACILITIES','Экран асфальтобетонный',null,null
+'6b08cbf2-0012-4a5a-9916-19f00b7ab14c','TREATMENT_FACILITIES','Экран пленочный',null,null
+'6a644314-47a6-4fc9-af1a-7c4d63a667c1','TREATMENT_FACILITIES','Естественный экран',null,null
+'0b40e90b-b66d-4e47-938c-67e89821cfc3','TREATMENT_FACILITIES','Обваловка',null,null
+'f33b45c2-03a8-4ec8-be86-bb6aaabf34df','TREATMENT_FACILITIES','Ограждение',null,null
+'612ef561-ed90-42a1-844e-779723183997','TREATMENT_FACILITIES','Отвод ливневых и дренажных вод',null,null
+'02343396-4d89-40bf-816c-da4e71818657','TREATMENT_FACILITIES','Сбор и очистка ливневых и дренажных вод',null,null
+'64835700-b8a3-4ecc-b04d-4c44d7e1899a','TREATMENT_FACILITIES','Сбор и очистка фильтрата',null,null
+'4bf7a0ba-4feb-4fbe-b397-806558c5a20d','TREATMENT_FACILITIES','Сбор биогаза',null,null
+'17936d69-c8ad-42f7-b3d0-8baa34adb049','TREATMENT_FACILITIES','Противопылевое обустройство',null,null
+'514e9b60-ba1a-48ed-9d29-72290fbf14ce','TREATMENT_FACILITIES','Иная система защиты окружающей среды',null,null
+'2bd5af77-3481-4a3d-bee0-9bc639cdf953','TREATMENT_FACILITIES','Система защиты окружающей среды отсутствует',null,null
+
+'c34c8106-51cf-4f9d-9db5-1195a386b3fd','ROAD_SURFACE_TYPE','Капитальные',null,null
+'1dbda4a8-8d41-4148-8646-b476a1b455af','ROAD_SURFACE_TYPE','Облегченные',null,null
+'3ac6ab66-d6dd-4bb8-b050-b0fb8840056e','ROAD_SURFACE_TYPE','Переходные',null,null
+'952c9dc2-57f1-45ea-aab6-e7b7e0b4e739','ROAD_SURFACE_TYPE','Низшие',null,null
+'30e2a727-9fb8-44c0-a513-5bd998d5f83c','ROAD_SURFACE_TYPE','Цементобетонные монолитные',null,null
+'bc2535a4-aece-4698-85e1-160b2599c7de','ROAD_SURFACE_TYPE','Железобетонные, монолитные и сборные или из предварительно напряженного железобетона, армобетонные сборные и монолитные',null,null
+'5fffa36c-2464-4555-824b-ce79fa1bdd16','ROAD_SURFACE_TYPE','Асфальтобетонные',null,null
+'acdc642e-a312-4244-8a71-42b5c412c7e2','ROAD_SURFACE_TYPE','Из щебня, гравия и песка, обработанных вяжущими',null,null
+'eb2b1c7a-fdb2-4917-9a51-ddf0a0333dd4','ROAD_SURFACE_TYPE','Щебеночные и гравийные; из грунтов и каменных материалов, обработанных вяжущими или армированных геосинтетическими материалами',null,null
+'fb553250-6b60-43e6-946b-5c366dd83a38','ROAD_SURFACE_TYPE','Из грунтов, армированных геосинтетическими материалами или улучшенных добавками',null,null
+
+'02c471cd-2f13-43c9-98b8-1a06eb28771e','SECURITY_SOURCE','Собственная служба безопасности',null,null
+'b97afc85-595c-42d9-9d7d-05914530d2ba','SECURITY_SOURCE','Услуги частных охранных служб (частные охранные предприятия)',null,null
+'c0ecec77-ebee-4676-8169-5ef377d0916e','SECURITY_SOURCE','Государственные услуги в области частной охранной деятельности (вневедомственная охрана)',null,null
+
+'10ca8278-1804-407c-a398-5c06bea83734','ENVIRONMENT_MONITORING_SYSTEM','Мониторинг грунтовых вод (наблюдательные скважины)',null,null
+'5f62d6c4-9af6-42d4-9eb4-d4ee78b81347','ENVIRONMENT_MONITORING_SYSTEM','Мониторинг поверхностных вод',null,null
+'468ddccf-61e4-40f7-82bd-9aeb2a37c774','ENVIRONMENT_MONITORING_SYSTEM','Мониторинг атмосферного воздуха',null,null
+'aaca8509-7dea-42a4-a4af-e28eafa73b5b','ENVIRONMENT_MONITORING_SYSTEM','Мониторинг почвенного покрова',null,null
+'c1e37614-6454-492e-8294-69e67c7d525e','ENVIRONMENT_MONITORING_SYSTEM','Мониторинг растительного покрова',null,null
+'aefc8176-18b0-4757-b3de-7174adc0e6e5','ENVIRONMENT_MONITORING_SYSTEM','Комплексный мониторинг окружающей среды',null,null
+'4b42a971-2f08-40b1-b079-fb73a31e3147','ENVIRONMENT_MONITORING_SYSTEM','Мониторинг окружающей среды отсутствует',null,null
+
+'cda50002-2d1a-4885-ad5d-e5e1ef67ab86','SECONDARY_RESOURCES','Картон',null,null
+'6f174e27-178f-4aae-85a3-4ad116680024','SECONDARY_RESOURCES','Макулатура',null,null
+'f8694982-d5c0-444e-9441-f641b289a500','SECONDARY_RESOURCES','ПЭТФ',null,null
+'c818e6fc-b093-4b0d-a488-910b6a963c5a','SECONDARY_RESOURCES','ПВД',null,null
+'a150ab37-3206-4d76-a182-00b402c88d91','SECONDARY_RESOURCES','ПВХ',null,null
+'3aff8b78-689f-4fe9-bd1d-455e50d79bf3','SECONDARY_RESOURCES','ПНД',null,null
+'3705626e-bafa-4564-8a90-64ad57a4aa8d','SECONDARY_RESOURCES','ПП',null,null
+'e5f04505-48ac-4298-845a-22cb3f503211','SECONDARY_RESOURCES','ПС',null,null
+'7d3dd589-4a65-44c5-92fb-8af237e6df13','SECONDARY_RESOURCES','Стекло',null,null
+'ca677fbe-9fac-408f-8a77-bdd6a580ba70','SECONDARY_RESOURCES','Черные металлы',null,null
+'462f6d7a-296c-4c18-9224-3b4306a8fe4a','SECONDARY_RESOURCES','Цветные металлы',null,null
+'7a5aaed0-949b-4d11-8a79-b8b33b528b49','SECONDARY_RESOURCES','Текстиль',null,null
+'aa2e96d0-93d1-4866-b9ef-c138b25df3fa','SECONDARY_RESOURCES','Многослойная упаковка типа "Тетра-Пак"',null,null
+
+'02a7a781-9da4-4685-87a2-7522fd9f9295','UTILIZATION_TYPE','Использование отходов на этапах их технологического цикла',null,null
+'92916bef-aaf4-474a-9c0a-7b67bcaa012f','UTILIZATION_TYPE','Обеспечение повторного (вторичного) использования',null,null
+'5a8a0450-5585-47aa-bb1e-4d97ea94509c','UTILIZATION_TYPE','Переработка списанных изделий',null,null
+
+'d642758e-1875-4a11-99a1-3e780fb0c90a','WATERPROOFING_TYPE','Гидроизолирующий слой из геомембраны (пленки из полиэтилена высокой плотности — HDPE и низкой плотности LDPE)',null,null
+'0c58fba1-c217-4d9a-ba4e-f6c8c8303ea0','WATERPROOFING_TYPE','Гидроизолирующий слой из бентонитовых матов',null,null
+
+'905980e7-2b41-4f7e-bb63-de11ef7c234d','OBJECT_REQUEST_STATUS','Черновик',null,null
+'50ee7130-7b2f-41ff-b253-4c1d075100ec','OBJECT_REQUEST_STATUS','Модерация',null,null
+'14764777-9c80-4048-a100-154b841edb41','OBJECT_REQUEST_STATUS','Запрошена ревизия данных ',null,null
+'e129b4d2-035a-4368-8d5e-3588ef904c62','OBJECT_REQUEST_STATUS','Запрошено техническое обследование объекта ',null,null
+'7093707e-d109-4477-91a1-dae9c2eb442c','OBJECT_REQUEST_STATUS','Опубликовано',null,null
+'409a19bd-d1be-4cc4-bd14-668f294131f5','OBJECT_REQUEST_STATUS','Удалено (архив)',null,null
+
+'5ffcc6bf-0ec5-4a33-b488-a6176c40ec49','IMPORT_STATUS','Импорт не выполнен',null,null
+'17cb5267-aa9f-482a-bead-4440350d1a96','IMPORT_STATUS','Импорт выполнен частично',null,null
+'dd3f8429-f287-42a4-b235-616f9c4cca37','IMPORT_STATUS','Импорт успешно выполнен',null,null
+
+'d68a980c-8642-4207-b5b2-c4669716682e','FENCE_FUNCTIONAL','бетон',null,null
+'40de6f03-fa7a-4a5e-b358-8c68bbab1eb0','FENCE_FUNCTIONAL','железобетон',null,null
+'55523629-81d7-432d-8eb8-770d607a89b4','FENCE_FUNCTIONAL','кирпич',null,null
+'eaa05c20-4b19-46c8-8a69-812c3e2aa5f6','FENCE_FUNCTIONAL','металлический лист (профнастил)',null,null
+'f18f488e-43ac-4ce0-afb0-f27c769ecbcb','FENCE_FUNCTIONAL','металлическая сетка (сетка-рабица)',null,null
+'15a2c4c8-9e4f-4347-8518-326f6bebd168','FENCE_FUNCTIONAL','пластиковый лист',null,null
+'219aca53-d503-4f5c-ab54-e01f2bdff60d','FENCE_FUNCTIONAL','дерево',null,null
+'02b36288-e367-4588-a7d0-f9f28d8eca53','FENCE_FUNCTIONAL','полимерные материалы, обеспечивающие прочность конструкции',null,null
+
+'e7e03384-54bb-4834-9a2b-f6f9d2ea5c56','FENCE_MOBILITY','стационарное',null,null
+'5a2d512f-ac39-4a14-8c44-a5222316abb7','FENCE_MOBILITY','быстроразвертываемое (носимое, возимое)',null,null
+
+'c6b33c98-6fcd-4111-a4b5-816f1b789b33','FENCE_CANVAS','сплошное',null,null
+'72052e40-2397-4c2a-a82b-54afbad9e073','FENCE_CANVAS','секционное',null,null
+'713c8f3a-7734-4fcb-8b4b-fd214c80c570','FENCE_CANVAS','комбинированное',null,null
+
+'4b621020-98ec-4e9a-8055-51f5ec3913d2','FENCE_VIEWABILITY','глухое',null,null
+'3fe3c52f-7213-4e61-8229-847365310ca9','FENCE_VIEWABILITY','просматриваемое',null,null
+'1d631ca2-996b-4a5e-8b99-6be40321eb35','FENCE_VIEWABILITY','комбинированное',null,null
+
+'0a47f118-f14c-43af-98ff-857baa0bca7e','FENCE_FABRIC_MATERIAL','жесткое глухое полотно: бетон, железобетон, кирпич, металл и дерево',null,null
+'0f89160a-3896-49b2-b38d-92b372f0757e','FENCE_FABRIC_MATERIAL','жесткое решетчатое полотно: железобетон, кирпич, металл и дерево',null,null
+'e98ae097-9d36-4292-be2e-3b2778fd6784','FENCE_FABRIC_MATERIAL','гибкое полотно: проволока, сетка (металл, пластик) и спирали армированной колючей ленты',null,null
+'361dc50f-80ba-4d78-86de-3801c1be2311','FENCE_FABRIC_MATERIAL','комбинированное полотно',null,null
+
+'d1da06d4-baef-42a2-aca6-424708eabe6a','FENCE_FOUNDATION','точечный (свая, винтовая опора, трубчатая забивная опора)',null,null
+'a1b6d0d1-a61e-4ebe-87da-ae97822ac549','FENCE_FOUNDATION','ленточный',null,null
+
+'d04046e5-0fa3-4277-b491-b4f6cb3193c7','FENCE_SUPPORTS_MATERIAL','бетон',null,null
+'fa2dcb42-8891-450c-b853-42cf165d7a0b','FENCE_SUPPORTS_MATERIAL','железобетон',null,null
+'efdc5ab0-1589-405f-a28c-3c8a9393b8c6','FENCE_SUPPORTS_MATERIAL','кирпич',null,null
+'02180ec9-edba-4ca4-bf43-b2e6291e9654','FENCE_SUPPORTS_MATERIAL','металл',null,null
+'eb1d105a-cfea-4e11-8968-739c03a4b056','FENCE_SUPPORTS_MATERIAL','дерево',null,null
+'1cdcd9a1-6be5-434b-8c39-959ab1b297dd','FENCE_SUPPORTS_MATERIAL','полимерные материалы, обеспечивающие прочность конструкции',null,null
+
+'be13c9f2-fdae-4bee-b488-57910acbde06','LIGHTS_FUNCTIONAL_TYPE','световые приборы со светодиодами',null,null
+'7920b14d-8984-4f70-9bee-90d4ba9f607c','LIGHTS_FUNCTIONAL_TYPE','световые приборы с металлогалогенными источниками света',null,null
+'889b6ae7-e7e6-4f4a-b5a7-0a00513930ec','LIGHTS_FUNCTIONAL_TYPE','световые приборы с люминесцентными источниками света',null,null
+'692cd451-815b-4659-b695-ccaed1b2d657','LIGHTS_FUNCTIONAL_TYPE','световые приборы с натриевыми лампами высокого давления',null,null
+'fbc4f2d7-3ab8-4251-a02e-2791ec5a4997','LIGHTS_FUNCTIONAL_TYPE','световые приборы с ртутными лампами высокого давления',null,null
+
+'4b7d6e92-f732-4973-a913-2f04135c2381','CONVEYOR','Подающий конвейер',null,null
+'ea846ac8-6d56-46ce-8c89-db73d00038df','CONVEYOR','Сортировочный конвейер',null,null
+'28c3c74b-3e7e-417f-bded-9487cfd73485','CONVEYOR','Реверсивный конвейер',null,null
+'b91fe3ea-9890-481f-8f74-57eb426c005f','CONVEYOR','Подающий конвейер пресса ВМР',null,null
+'a2e1cd6d-4f98-4055-8dbd-18e9017b2df4','CONVEYOR','Разрыватель пакетов',null,null
+
+'1721d085-848f-4f5d-8a73-ba1e28381f37','SEPARATOR','Сепаратор цветных металлов',null,null
+'7c2ec1e4-7872-4e72-b974-70aa6fb581a9','SEPARATOR','Сепаратор черных металлов',null,null
+'875f9452-f6f0-420d-bc5b-42323c6d5086','SEPARATOR','Оптические сепараторы',null,null
+'2d9e5088-d9a1-4203-9a92-eb801c3e5e8e','SEPARATOR','Вихретоковые сепараторы',null,null
+'c6907759-839d-469e-b678-31971ea0c4e9','SEPARATOR','Баллистические сепараторы',null,null
+'434d2837-d7cb-4e63-b0a5-47acd63e3fe0','SEPARATOR','Сепараторы легкой и тяжелой фракции',null,null
+'76de5a52-84ad-4b3a-b8c8-7297c3cf7e80','SEPARATOR','Вибрационные сепараторы',null,null
+'61daa90f-0546-4cfe-8b63-3c2bfd2bfe34','SEPARATOR','Перфораторы ПЭТ-тары',null,null
+
+'eeff8127-e87e-48f7-8cbb-13153b2afeab','PRESS','Горизонтальные прессы',null,null
+'a623d89a-2f6b-4f80-8605-d43d6dd52c77','PRESS','Вертикальные прессы',null,null
+'286135ab-2f13-48ba-ad22-3d9d3fbf70d9','PRESS','Пресс компакторы',null,null
+'c2d75472-ff87-46eb-929a-edf2dcfb7986','PRESS','Упаковочные машины для ТКО',null,null
+
+'a9576789-aa98-4c68-a51e-b2910c824ebd','ADDITIONAL_EQUIPMENT','Барабанный грохот',null,null
+'22ca2b24-f49b-4686-b994-767db7eed6a3','ADDITIONAL_EQUIPMENT','Дробильная установка',null,null
+'2d023da7-011e-4569-b014-e4278880fe45','ADDITIONAL_EQUIPMENT','Сушильная установка',null,null
+
+'c2d8c5c5-ee90-4518-b854-c5a59fba489a','TECHNICAL_SURVEY_STATUS','Не начато',null,null
+'4052a373-5184-4df8-b8bc-4183569bd282','TECHNICAL_SURVEY_STATUS','В процессе проведения',null,null
+'c2399390-0938-4b31-b7f8-0a74f9bb6ba9','TECHNICAL_SURVEY_STATUS','Завершено',null,null
+
+'5c6e9563-8a3e-41aa-b141-7a8352a33dc6','TECHNICAL_SURVEY_RESULT','Выявлены несоответствия в ранее представленных данных',null,null
+'89c38443-301b-42a0-a6e1-9e5455f9e595','TECHNICAL_SURVEY_RESULT','Несоответствия не выявлены',null,null
+
+'ec26a453-ef7b-40a5-9d81-8633b952fd81','PLACEMENT_OBJECT_EQUIPMENT','Основное производственное оборудование',null,null
+'3f4b402a-4797-4772-8942-1f6804bd6b43','PLACEMENT_OBJECT_EQUIPMENT','Вспомогательное производственное оборудование',null,null
+
+'5c66458a-1d38-415f-95e9-9ac1304f450c','UTILIZATION_OBJECT_EQUIPMENT','Основное производственное оборудование',null,null
+'c0bdfeec-0f8d-44df-911d-245f3d2cfdc9','UTILIZATION_OBJECT_EQUIPMENT','Вспомогательное производственное оборудование',null,null
+
+'c1f1aa1d-d151-4aa4-87b4-c19f1f5d3366','NEUTRALIZATION_OBJECT_EQUIPMENT','Основное производственное оборудование',null,null
+'e6699097-19bf-4cbd-8b75-0bfff8492148','NEUTRALIZATION_OBJECT_EQUIPMENT','Вспомогательное производственное оборудование',null,null
+
+'ec0828ef-73e0-4a51-b814-bf6903ee34de','EQUIPMENT_KIND','Конвейеры',null,null
+'bbcef6b5-75ce-4770-bd00-3872a17773c3','EQUIPMENT_KIND','Сепараторы',null,null
+'e16a0d6a-9446-4997-9a84-ff8b371f5542','EQUIPMENT_KIND','Прессы',null,null
+'57016882-eeb1-4ed1-bf78-a43f8c68e351','EQUIPMENT_KIND','Дополнительное оборудование',null,null
+
+'609dbf2a-5e0a-475a-ae25-cd8c5ada8a9f','GRORO','02-00001-Х-00479-010814',null,null
+'64700188-cf66-48e5-9ccb-97b0134d8df2','GRORO','02-00002-Х-00479-010814',null,null
+'d7e3dbd4-cf78-4d7b-b2ea-701817c2c458','GRORO','02-00003-Х-00479-010814',null,null
+'74fd8feb-8c3c-49d7-b934-873aa9b4d8d2','GRORO','02-00004-Х-00479-010814',null,null
+'49473fcd-dc3e-430f-afde-ed2720e7919a','GRORO','02-00005-Х-00479-010814',null,null
+'2f312ced-d790-43a5-a2c1-9fddda6ffd1d','GRORO','02-00006-Х-00479-010814',null,null
+'262da207-5252-4273-98ce-c7ba05b5c48b','GRORO','02-00007-З-00479-010814',null,null
+'69ac9104-e97b-4de2-bb9b-5df5ef9e0661','GRORO','02-00008-З-00479-010814',null,null
+'4accf995-c769-4f09-a42f-ac04f1e9828d','GRORO','02-00009-З-00479-010814',null,null
+'338abf53-5a58-4615-bb62-86632550df1d','GRORO','02-00010-Х-00479-010814',null,null
+'7dc49f07-e733-455d-8dbe-4b9585b51bf5','GRORO','02-00011-Х-00479-010814',null,null
+'57603bab-1f85-447d-b2b2-68ace1e026dd','GRORO','02-00012-Х-00479-010814',null,null
+'ec6d9dfd-860c-48b6-8106-21b2ff5631ec','GRORO','02-00013-Х-00479-010814',null,null
+'9968cdcf-55cf-4680-a730-409592a9609c','GRORO','02-00014-Х-00479-010814',null,null
+'fe1e2723-5718-4765-b960-0032dc4b2b22','GRORO','02-00015-Х-00479-010814',null,null
+'ca1ca125-65f0-4848-a4bd-af5766113c6f','GRORO','02-00016-З-00479-010814',null,null
+'296d3473-a4dc-4d8e-abd8-e4137e902684','GRORO','02-00017-Х-00479-010814',null,null
+'04562a0a-36fc-42dc-9471-30eaa782ee81','GRORO','02-00018-Х-00479-010814',null,null
+'08130602-c47f-442b-9a15-0cedef7af7d3','GRORO','02-00019-Х-00479-010814',null,null
+'86bd266e-b61e-4f67-a73d-4e62ea45d1ec','GRORO','02-00020-Х-00479-010814',null,null
+'8724e56b-3eb9-4f81-a3ed-7a386956ee6b','GRORO','02-00021-Х-00479-010814',null,null
+'cf728f80-7e54-4c3b-b536-19a33ea96c01','GRORO','02-00022-Х-00479-010814',null,null
+'8b98b0d2-b4d7-46f3-a205-0c3f7250bcc6','GRORO','02-00023-З-00479-010814',null,null
+'5609ea8a-579b-4500-a2a5-c40e12613b79','GRORO','02-00024-Х-00479-010814',null,null
+'f4652e3b-89d4-442c-86ee-fe8141264444','GRORO','02-00025-Х-00479-010814',null,null
+'17e7d42d-ed8a-419e-8a16-d95d337fac75','GRORO','03-00001-Х-00479-010814',null,null
+'ea85ccfb-993b-44ed-bd6a-b13eda166b89','GRORO','03-00002-З-00479-010814',null,null
+'ed8f96c1-2c5b-4607-baf9-81a410237e20','GRORO','03-00003-З-00479-010814',null,null
+'e43f7b82-a249-455d-a2aa-82b0a2fdbed8','GRORO','03-00004-З-00479-010814',null,null
+'66f61090-b24a-43a4-b851-cf125de4791b','GRORO','03-00005-З-00479-010814',null,null
+'de895ce4-6245-42c4-a103-bd00b6e1ea6b','GRORO','03-00006-Х-00479-010814',null,null
+'c79ebb9a-d962-442e-80af-5898c87d368f','GRORO','03-00007-З-00479-010814',null,null
+'0f14b99c-b236-475c-842d-3bed1492b6b5','GRORO','03-00008-З-00479-010814',null,null
+'d7a269af-0aff-41d4-89a8-1b2269b515ef','GRORO','03-00009-З-00479-010814',null,null
+'469a97ac-623c-4a81-8574-dea5bbbef0de','GRORO','03-00010-З-00479-010814',null,null
+'8d5dcc0a-4e7a-4f1a-8cfb-1e3ac86874e2','GRORO','03-00011-З-00479-010814',null,null
+'b276d552-20ba-4ffe-9c47-7cf6d91ce50e','GRORO','03-00012-З-00479-010814',null,null
+'3e7ae8f9-85a7-43a0-a732-d36a6d06014c','GRORO','03-00013-З-00479-010814',null,null
+'b5b10301-9ed5-443d-96b4-18cadfad8017','GRORO','03-00014-З-00479-010814',null,null
+'2e30c7bd-26f8-4bca-9709-734dadd8f39a','GRORO','03-00015-З-00479-010814',null,null
+'053c0017-c059-4c03-bebc-21836518c8bc','GRORO','03-00016-З-00479-010814',null,null
+'5968d002-0341-4b1a-82aa-19ab09ea211d','GRORO','03-00017-З-00479-010814',null,null
+'d1987fe6-ba9e-4f59-abc0-47badc5f0c4f','GRORO','03-00018-З-00479-010814',null,null
+'63ba210a-28ed-4bd7-be63-a8bbcd1d67cd','GRORO','03-00019-З-00479-010814',null,null
+'03a700a2-7844-4e68-88e8-2de9ecd45125','GRORO','03-00020-Х-00479-010814',null,null
+'3164ebe8-c474-4b56-89eb-d5676c671fa4','GRORO','03-00021-Х-00479-010814',null,null
+'3588bf20-d277-4b70-918a-7724bdefdb1a','GRORO','03-00022-Х-00479-010814',null,null
+'09323c4f-d09d-4fbb-b0d4-6c8acd5914f7','GRORO','03-00023-З-00479-010814',null,null
+'c846d0b6-aa77-45aa-bd23-94ce0d302e26','GRORO','09-00001-З-00479-010814',null,null
+'11e5b90f-a36e-4d09-8e0e-27e47e64bd2a','GRORO','09-00002-З-00479-010814',null,null
+'04b234db-2cb2-45d6-98cf-1d6091b167e2','GRORO','09-00003-З-00479-010814',null,null
+'b1cec56e-aa91-41f1-9c4e-d7f91409b322','GRORO','10-00001-Х-00479-010814',null,null
+'38eeee9c-6ad7-40da-bf4c-f7fbe8cc3bdb','GRORO','11-00001-ХЗ-00479-010814',null,null
+'215dcb28-eb72-4698-829c-f0709f39571e','GRORO','11-00002-З-00479-010814',null,null
+'4915718a-bc0a-441b-90b0-2b64bd6ec201','GRORO','11-00003-З-00479-010814',null,null
+'44a529f8-79b1-431d-9e3a-ff0658bbf646','GRORO','11-00004-З-00479-010814',null,null
+'c0ec7279-c863-4727-8e3c-8df0ed3011dd','GRORO','11-00005-З-00479-010814',null,null
+'56dd0809-3b91-4f74-b025-be50be5ee76b','GRORO','11-00006-Х-00479-010814',null,null
+'74d22b48-a226-43bb-ac7a-37f5870468bd','GRORO','11-00007-Х-00479-010814',null,null
+'43e5fd95-5d94-4f93-aef0-37ffe6f90751','GRORO','11-00008-Х-00479-010814',null,null
+'98ef8cf3-37c0-4b5f-b3d3-076ccfa13383','GRORO','11-00009-З-00479-010814',null,null
+'6081247e-3526-4a2e-a857-c21a520e0a5b','GRORO','11-00010-З-00479-010814',null,null
+'a5db7f0f-a792-4941-afca-1259f5bb74c5','GRORO','12-00001-З-00479-010814',null,null
+'36dc1e80-e88c-4c61-be08-db181b0206b7','GRORO','63-00016-З-00479-010814',null,null
+'c0250b6c-95b0-4d1b-a784-60842e7b8c41','GRORO','19-00001-Х-00479-010814',null,null
+'8ab9adb8-013f-4ede-92b0-ce737b74f0ad','GRORO','19-00002-Х-00479-010814',null,null
+'a0e56bee-269c-4702-9ce8-3d54879dac8f','GRORO','19-00003-Х-00479-010814',null,null
+'9cba4b27-3cf3-4ad1-9e04-5f5661a2265b','GRORO','19-00004-З-00479-010814',null,null
+'e24a0fba-e468-458d-9d4e-24b57d745825','GRORO','19-00005-Х-00479-010814',null,null
+'d5bfda56-7471-4d72-ab64-e91075f9598b','GRORO','19-00006-Х-00479-010814',null,null
+'a4e6836c-4755-4540-8335-d741eb2e3904','GRORO','19-00007-З-00479-010814',null,null
+'fd5ab0ee-c80b-44eb-bd7b-add96f75dae2','GRORO','19-00008-З-00479-010814',null,null
+'ed3e474b-2337-4621-87dc-44016e0583f1','GRORO','19-00009-З-00479-010814',null,null
+'5c17aaa1-8d33-4f53-a0be-541b1e1804e3','GRORO','19-00010-З-00479-010814',null,null
+'0558e549-075c-49ae-a04c-9d32a7cb61cc','GRORO','19-00011-З-00479-010814',null,null
+'224b7dd1-b69f-4511-9c60-200f3544d12d','GRORO','19-00012-Х-00479-010814',null,null
+'50ec9594-25b0-450e-b5b9-6b2ff5a4bfa4','GRORO','19-00013-З-00479-010814',null,null
+'5186fa6b-79d6-4baf-a82d-972d78de4970','GRORO','19-00014-Х-00479-010814',null,null
+'1f7ecb81-4d46-4074-887b-0c6d5ef99ae7','GRORO','19-00015-Х-00479-010814',null,null
+'a2a9dc3b-d703-4250-990f-8ecc72fb1c97','GRORO','19-00016-Х-00479-010814',null,null
+'f4f12bd4-0800-44c2-9687-4e78dd699fd4','GRORO','19-00017-З-00479-010814',null,null
+'947160ca-6c45-47f1-baaf-6e980e6b1249','GRORO','21-00001-З-00479-010814',null,null
+'74d73dcb-8790-401d-9f34-c6aa979e21f9','GRORO','21-00002-Х-00479-010814',null,null
+'d4c06dab-3455-4613-a783-8f5e66e539a5','GRORO','21-00003-Х-00479-010814',null,null
+'23139cfb-5973-4f3a-bd3d-9bb6be76a687','GRORO','21-00004-З-00479-010814',null,null
+'61071d6c-f4cf-459c-8dca-ec3a96824920','GRORO','21-00005-З-00479-010814',null,null
+'3af157d4-dccb-4b97-83fc-519547b65538','GRORO','21-00006-З-00479-010814',null,null
+'3bf305dc-559f-469e-9483-42154f4ab8d0','GRORO','21-00007-Х-00479-010814',null,null
+'3256057a-64f1-4ed8-803c-364986e3c8a0','GRORO','21-00008-Х-00479-010814',null,null
+'aa8b03fc-a882-43ac-b8fa-0787f22d68a8','GRORO','21-00009-З-00479-010814',null,null
+'84e97505-3847-4c28-80f5-28b0c1cb760d','GRORO','22-00001-Х-00479-010814',null,null
+'e10175c0-b2bb-4b5c-8af4-1502a8c5e9a8','GRORO','22-00002-Х-00479-010814',null,null
+'4004ffec-f6e1-4198-a923-a828cc5ab0df','GRORO','22-00003-Х-00479-010814',null,null
+'db741ffe-e30a-4082-934e-8e8d8f01ad81','GRORO','22-00004-З-00479-010814',null,null
+'a3722379-d239-4ea4-9c68-e22799aa8b63','GRORO','22-00005-Х-00479-010814',null,null
+'1e6778ed-beb2-4723-b594-7f2427f2a775','GRORO','22-00006-Х-00479-010814',null,null
+'07d9fadd-3e83-49a3-83e8-9808acc4b853','GRORO','22-00007-Х-00479-010814',null,null
+'91c9d5b6-9008-4064-a1be-4fd90a6de911','GRORO','22-00008-Х-00479-010814',null,null
+'ef027dd8-d0ef-4c19-a886-cc96853bd7d6','GRORO','22-00009-Х-00479-010814',null,null
+'730eeefc-d620-46f1-b38a-74e4be035dfa','GRORO','22-00010-Х-00479-010814',null,null
+'119de817-e959-43a6-8033-b140fc590d8b','GRORO','22-00011-Х-00479-010814',null,null
+'a4a6e426-c5dc-4f67-a69b-4a92c2302de2','GRORO','22-00012-Х-00479-010814',null,null
+'6cf7a6a7-deca-412f-a5f2-8dc2b7e2fea5','GRORO','24-00001-Х-00479-010814',null,null
+'f203b6b9-c38a-4904-a721-ddaf4cc85c06','GRORO','24-00002-Х-00479-010814',null,null
+'2f229654-1225-4c6b-9dce-13c83b24c9e3','GRORO','24-00003-Х-00479-010814',null,null
+'be07cdad-2d1f-4f25-b9b3-80ffc97dd9d4','GRORO','24-00004-Х-00479-010814',null,null
+'6ec0d48a-e26a-47cb-89bf-a66be94976db','GRORO','24-00005-З-00479-010814',null,null
+'74b86330-8d03-42f2-81c6-db3bbc35cd11','GRORO','24-00006-З-00479-010814',null,null
+'aa8146ee-404e-4314-8a2b-8f80d2f4c312','GRORO','24-00007-Х-00479-010814',null,null
+'ddb1510d-c9a4-49b7-8625-abf38524e61d','GRORO','24-00008-Х-00479-010814',null,null
+'5c4271c8-e963-4b0e-a7e4-cffee9aa101c','GRORO','24-00009-З-00479-010814',null,null
+'d371ef55-6058-4b95-bc96-d03ac1b4f47a','GRORO','24-00010-Х-00479-010814',null,null
+'0045d6d8-7d0a-4af4-8798-e6651dd48274','GRORO','24-00011-Х-00479-010814',null,null
+'602eb875-cd81-40f9-97c3-3a9d4b47d0cb','GRORO','24-00012-Х-00479-010814',null,null
+'a4953fe5-515d-47cd-9ee9-8dfb8983abbf','GRORO','24-00013-Х-00479-010814',null,null
+'2686c38d-8e6e-40a8-98ee-43e85e6548d0','GRORO','24-00014-З-00479-010814',null,null
+'88e8d49a-6490-4381-bb16-31b4972072cc','GRORO','24-00015-З-00479-010814',null,null
+'c1f04df9-a449-40d3-895a-3e1248363e88','GRORO','24-00016-Х-00479-010814',null,null
+'f399de84-a0a1-4e2f-a57a-2aa2f862fd3f','GRORO','24-00017-Х-00479-010814',null,null
+'96bb523a-56a7-4db5-a02e-70c9dda34a74','GRORO','24-00018-Х-00479-010814',null,null
+'6ea1514f-d58b-464a-9053-8edd59b50638','GRORO','24-00019-Х-00479-010814',null,null
+'5aee9517-b5a0-4ca4-8751-13ff963e0dd6','GRORO','24-00020-Х-00479-010814',null,null
+'06573ccd-baf9-4d54-bd7e-0bbeb383c7f3','GRORO','24-00021-Х-00479-010814',null,null
+'ad8f0fa7-1e2c-416e-baaf-49df25ac1dea','GRORO','24-00022-Х-00479-010814',null,null
+'f53a445b-876e-494d-a58f-e0a02dcc8366','GRORO','24-00023-Х-00479-010814',null,null
+'5146993a-c9b0-4b96-a1ce-6fc7a726bb47','GRORO','24-00024-Х-00479-010814',null,null
+'659a991e-7f4b-4446-a5c2-385f624c87a2','GRORO','24-00025-Х-00479-010814',null,null
+'e3a9ca39-3a46-47d0-aa5a-9639cde04576','GRORO','24-00026-Х-00479-010814',null,null
+'bb1fbe70-4288-447e-b33e-c1be4d144ab2','GRORO','24-00027-Х-00479-010814',null,null
+'79e33b73-a143-4be6-8ccd-a9c3d6c49213','GRORO','24-00028-Х-00479-010814',null,null
+'23b1b93b-9d69-437f-98fc-e89d09eb5589','GRORO','24-00029-З-00479-010814',null,null
+'9fc3af94-8e02-4f65-bd59-faebe543d30b','GRORO','24-00030-З-00479-010814',null,null
+'1c99c25c-cb4b-43d6-8a9e-2b0d5831005f','GRORO','24-00031-З-00479-010814',null,null
+'eec452a1-a0a8-4146-85ce-3b56b1968012','GRORO','24-00032-Х-00479-010814',null,null
+'8a12ef07-7cd0-4409-b114-020d557c9b73','GRORO','24-00033-З-00479-010814',null,null
+'59449c9f-85a0-4866-b8c8-6525ea37c4be','GRORO','24-00034-Х-00479-010814',null,null
+'658bb59e-3b2e-403b-bcb1-bf62301f08b9','GRORO','25-00001-З-00479-010814',null,null
+'317d055b-5187-4099-a760-e4755d99e7ec','GRORO','25-00002-З-00479-010814',null,null
+'8b8348c9-c164-450b-a11e-ce8fdb954436','GRORO','25-00003-З-00479-010814',null,null
+'d1f77a6d-389b-40e7-9772-c35517e8aa7c','GRORO','25-00004-З-00479-010814',null,null
+'e0e488ff-ec9a-475f-96d5-cf0ecf3bb90c','GRORO','25-00005-З-00479-010814',null,null
+'cd11a4bc-a3a1-48ae-acc9-28f8438a9152','GRORO','25-00006-З-00479-010814',null,null
+'7a82ce36-379e-4577-a5d3-ab7f16b41a3d','GRORO','25-00007-З-00479-010814',null,null
+'656fa958-6a08-43c0-98a6-b6334a77420d','GRORO','25-00008-Х-00479-010814',null,null
+'024872f6-2559-4d16-af49-dd7134643d9f','GRORO','25-00009-Х-00479-010814',null,null
+'54790a0e-e05b-4430-8a50-a8af09eb9f09','GRORO','25-00010-З-00479-010814',null,null
+'5beb012b-89ee-4fad-8418-f33425c54417','GRORO','25-00011-З-00479-010814',null,null
+'3e48948b-91ff-4f27-8885-f03167802ced','GRORO','25-00012-З-00479-010814',null,null
+'a28fe425-38b2-4713-97db-cab5f0bbefbf','GRORO','28-00001-Х-00479-010814',null,null
+'3cf1712c-319c-46cf-bfa5-1cc836d8d326','GRORO','28-00002-З-00479-010814',null,null
+'5210b5b2-3cbc-4723-861e-ab9436b83a95','GRORO','28-00003-З-00479-010814',null,null
+'09f2b065-06cf-4fdd-b863-dabd4121198a','GRORO','28-00004-З-00479-010814',null,null
+'8c32ae91-4e1a-4ddb-9bbe-18d8d42b587d','GRORO','29-00001-Х-00479-010814',null,null
+'3cad2e1e-08e9-4a05-ae97-40d9520d82c1','GRORO','29-00002-З-00479-010814',null,null
+'65dc7f40-103b-47e9-b917-9fdbf4eb87fd','GRORO','29-00003-Х-00479-010814',null,null
+'8eef110b-4eca-433b-b712-fc124489c94d','GRORO','29-00004-Х-00479-010814',null,null
+'a48662a8-0f8f-4d65-857f-ec6806abed04','GRORO','29-00005-Х-00479-010814',null,null
+'ba1f2911-594c-4cb5-8eda-420c9b1214f7','GRORO','29-00006-З-00479-010814',null,null
+'890f4ef6-14e5-4902-be2d-64120dbd4642','GRORO','30-00001-З-00479-010814',null,null
+'405e13ba-bfb8-40ed-8b97-4d0377e92da6','GRORO','30-00002-З-00479-010814',null,null
+'4e252c51-c1f5-4fa9-9c66-2fe2328e6b91','GRORO','30-00003-З-00479-010814',null,null
+'c2836b70-b901-432d-9382-00c307f74a36','GRORO','30-00004-З-00479-010814',null,null
+'f1a01bc5-5e83-428e-b72d-ec02eebbee9d','GRORO','30-00005-З-00479-010814',null,null
+'dd9c6562-5cf4-413d-a082-a59c1afa070f','GRORO','31-00001-З-00479-010814',null,null
+'2c37491b-b97c-4282-a5a8-17da46cfa412','GRORO','31-00002-З-00479-010814',null,null
+'b02da57f-e227-444d-8b1b-5a0d344f9ee9','GRORO','31-00003-З-00479-010814',null,null
+'d6678078-5413-4a58-8cb5-e5fcc9357591','GRORO','31-00004-З-00479-010814',null,null
+'f6fa2fab-d90b-43fe-9463-01562ed52554','GRORO','31-00005-З-00479-010814',null,null
+'b2a099f1-d265-49d6-8b26-2383d9096b42','GRORO','31-00006-З-00479-010814',null,null
+'ac59609f-2fe8-4fc8-942a-496b3d9ec17f','GRORO','31-00007-Х-00479-010814',null,null
+'f308d8b2-5863-4c2d-b34b-9b57bb93f6f8','GRORO','32-00001-З-00479-010814',null,null
+'18399c30-6db6-4909-8519-4ff69c9dd82b','GRORO','32-00002-З-00479-010814',null,null
+'8287c62d-17c0-4f4e-b9cd-42b0362431cd','GRORO','33-00001-З-00479-010814',null,null
+'adeae99c-bce7-4688-8b05-040299cc9241','GRORO','33-00002-З-00479-010814',null,null
+'33cf9fb2-654e-4bdb-96dd-a03b5ecd4ede','GRORO','34-00001-З-00479-010814',null,null
+'5a15f347-4e1f-4b64-b601-6b8c1a5bb8e2','GRORO','34-00002-Х-00479-010814',null,null
+'6af8fe65-7021-45b5-abee-1ac938da1280','GRORO','34-00003-Х-00479-010814',null,null
+'d7fb8cfe-92cf-4a59-87cb-a4c5a7de103e','GRORO','34-00004-З-00479-010814',null,null
+'2556eba8-5662-47c8-83ea-f8b44897c90e','GRORO','34-00005-Х-00479-010814',null,null
+'4e6b5942-6839-41de-b11d-b1c09d09faed','GRORO','34-00006-Х-00479-010814',null,null
+'b16ada9a-26d8-495b-a7b1-9c7c49978071','GRORO','34-00007-Х-00479-010814',null,null
+'9892d07d-9fcb-4f67-9718-aebe381fc14c','GRORO','34-00008-Х-00479-010814',null,null
+'6e1dfc98-e6d3-4211-a6d1-ff73a147f949','GRORO','34-00009-Х-00479-010814',null,null
+'1631e3c8-290e-4bb9-a690-dcbb18588768','GRORO','34-00010-З-00479-010814',null,null
+'cb85a29b-0266-4699-b084-770f8f5fc940','GRORO','34-00011-З-00479-010814',null,null
+'fd60a323-4294-4969-b430-f66b09f1d627','GRORO','34-00012-З-00479-010814',null,null
+'1c757661-85a9-41fa-a905-d122d4a03b57','GRORO','34-00013-З-00479-010814',null,null
+'82c42863-6c56-4f33-89b5-951f44528c29','GRORO','34-00014-З-00479-010814',null,null
+'911ae7c7-4b71-49b2-a6e6-749bbc47141f','GRORO','34-00015-З-00479-010814',null,null
+'d5799786-425e-427a-a564-e89ef09d3915','GRORO','34-00016-Х-00479-010814',null,null
+'29f41722-a225-4fad-a638-b5e6830a5650','GRORO','34-00017-Х-00479-010814',null,null
+'2698137a-b622-465c-b5e5-8367d6c696b8','GRORO','36-00001-З-00479-010814',null,null
+'7330eac8-96ec-465d-ab8a-719d05118379','GRORO','36-00002-З-00479-010814',null,null
+'30ee06fa-3000-4464-9966-02f1d63d946d','GRORO','36-00003-З-00479-010814',null,null
+'020f3e1c-d241-4b7b-b10e-9146b821b6bb','GRORO','36-00004-З-00479-010814',null,null
+'b7e58a80-7467-4f8b-8a66-63857e043d5a','GRORO','36-00005-З-00479-010814',null,null
+'d29abe08-c0d4-4804-843a-2e46a6554dc3','GRORO','36-00006-З-00479-010814',null,null
+'833f72da-195c-4de5-a418-9398fb262e2e','GRORO','36-00007-Х-00479-010814',null,null
+'a6e65a52-fe80-43b0-961c-4da081f34288','GRORO','36-00008-Х-00479-010814',null,null
+'ee96bbb5-f814-431f-b6ca-74756f62ec43','GRORO','36-00009-З-00479-010814',null,null
+'8da60e87-f332-4a3f-85ff-7875593048ba','GRORO','36-00010-З-00479-010814',null,null
+'f1aeba16-3af9-4a95-bcc8-cf490ed772a2','GRORO','36-00011-Х-00479-010814',null,null
+'5dc31429-c799-4a81-ad37-6a8cf9ae5153','GRORO','36-00012-З-00479-010814',null,null
+'ced810d7-356d-45a8-a77e-995d7742ae85','GRORO','36-00013-З-00479-010814',null,null
+'b0ec101e-864b-411d-a3fd-e6b461a354c5','GRORO','36-00014-З-00479-010814',null,null
+'2a47395d-31fa-40d0-82f0-5fe4aeaacb3d','GRORO','36-00015-З-00479-010814',null,null
+'a3ae63f3-cf08-48e5-a5b8-5efaabeb3cdd','GRORO','36-00016-З-00479-010814',null,null
+'c898b431-eff9-4530-bc60-5f071317bf0f','GRORO','38-00001-Х-00479-010814',null,null
+'0ef09073-5b64-45c8-94cb-44e06cb432cd','GRORO','38-00002-Х-00479-010814',null,null
+'15e7246e-b2bf-422c-965b-481d2d706483','GRORO','38-00003-З-00479-010814',null,null
+'8ca950b6-8195-43de-9301-b3643b03de49','GRORO','38-00004-Х-00479-010814',null,null
+'8f9cea2c-69b9-4fbd-a8f2-ac9918566983','GRORO','38-00005-Х-00479-010814',null,null
+'f5f9567a-fd7d-485c-882d-ee973fd25d01','GRORO','38-00006-Х-00479-010814',null,null
+'cdb73644-6de9-43dc-91c2-ce393ffdea07','GRORO','38-00007-Х-00479-010814',null,null
+'baffd836-41b0-4294-84c4-00d89ab2bb76','GRORO','38-00008-Х-00479-010814',null,null
+'e6b0d2c8-f072-45c8-87c5-b8ff9a5889f8','GRORO','38-00009-З-00479-010814',null,null
+'a2f5ebc9-5454-448f-9352-b4368897f43f','GRORO','38-00010-З-00479-010814',null,null
+'81ddafbb-90c7-41c3-bcd6-983d5d554e3c','GRORO','38-00011-З-00479-010814',null,null
+'617af1ee-f540-4967-96c4-8f07a7c59a40','GRORO','38-00012-З-00479-010814',null,null
+'a4f6e7a2-6da5-4e33-8c96-75df5a4a975d','GRORO','38-00013-З-00479-010814',null,null
+'638ef820-ad57-4f4e-aa6b-827b3d57af70','GRORO','38-00014-З-00479-010814',null,null
+'4f8b557f-e0c9-4847-8aea-3afc4409d56a','GRORO','38-00015-Х-00479-010814',null,null
+'46dc04ce-1ca5-4911-8028-d2c20fa728bb','GRORO','38-00016-З-00479-010814',null,null
+'598a00a6-6e79-457e-9edf-7bafeef13229','GRORO','38-00017-Х-00479-010814',null,null
+'18cd0414-941a-4be7-ac78-d3ebfb1412e1','GRORO','38-00018-Х-00479-010814',null,null
+'4b5831f2-1823-4991-9c64-b7d88bd3e2dd','GRORO','38-00019-Х-00479-010814',null,null
+'c9eaf8d9-9f15-444e-924b-43d36487f953','GRORO','38-00020-З-00479-010814',null,null
+'31559d94-9fde-436a-a405-0cb1aaddfbea','GRORO','38-00021-З-00479-010814',null,null
+'ab8de096-c309-4410-9365-bb145705fbfd','GRORO','38-00022-Х-00479-010814',null,null
+'fd051769-d0fe-40ab-8d4b-2b6f462b0565','GRORO','38-00023-З-00479-010814',null,null
+'98aa2716-4c54-4295-93ca-4fcd8e1293e9','GRORO','38-00024-Х-00479-010814',null,null
+'64bdbcf0-68e7-4fc3-9a76-297be0bbcd64','GRORO','38-00025-Х-00479-010814',null,null
+'9c709d9c-a694-4887-9dce-b33c98d6234c','GRORO','38-00026-З-00479-010814',null,null
+'48062264-15b7-4e6a-bcc4-5b8e55109a89','GRORO','39-00001-З-00479-010814',null,null
+'edf2d8a8-a7a1-43f9-8d53-359277fa3056','GRORO','40-00001-З-00479-010814',null,null
+'6634321a-dd78-41a5-9f1f-3bd72b4f23dd','GRORO','40-00002-З-00479-010814',null,null
+'844020d0-0d60-47ff-ab30-4cf7a3c1a155','GRORO','40-00003-З-00479-010814',null,null
+'2c4beb99-a4f9-4397-927a-2e5b946cd608','GRORO','41-00001-З-00479-010814',null,null
+'4b7a6495-0825-4288-8f60-806645552ed5','GRORO','41-00002-З-00479-010814',null,null
+
+'10ea927a-0fd8-4c9e-9e6a-2102f77e7bd3','WASTE_TYPE','7 30 000 00 00 0 ОТХОДЫ КОММУНАЛЬНЫЕ, ПОДОБНЫЕ КОММУНАЛЬНЫМ НА ПРОИЗВОДСТВЕ И ПРИ ПРЕДОСТАВЛЕНИИ УСЛУГ НАСЕЛЕНИЮ',null,null
+'8bd8caa6-cc33-4643-80be-8fc6d4e1c391','WASTE_TYPE','7 31 000 00 00 0 Отходы коммунальные твердые',null,null
+'199d0129-ed65-4299-881b-43b78121b4fd','WASTE_TYPE','7 31 100 00 00 0 Отходы из жилищ',null,null
+'ea028998-2fe6-4cdf-b0a6-b88be4fbf066','WASTE_TYPE','7 31 110 00 00 0 Отходы из жилищ при совместном накоплении',null,null
+'8542695e-4318-4272-adfa-8e828902029b','WASTE_TYPE','7 31 110 01 72 4 отходы из жилищ несортированные (исключая крупногабаритные)',null,null
+'3d552dd8-6f59-4de4-95fe-3c2273c10c56','WASTE_TYPE','7 31 110 02 21 5 отходы из жилищ крупногабаритные',null,null
+'02f90d05-7563-409e-af8e-6d2b2fbfe2fb','WASTE_TYPE','7 31 120 00 00 0 Отходы из жилищ при раздельном накоплении',null,null
+'fafaa99d-f930-4e25-929b-1ee7c907eeef','WASTE_TYPE','7 31 200 00 00 0 Отходы от уборки территории городских и сельских поселений, относящиеся к твердым коммунальным отходам',null,null
+'7625ed94-ebfb-4ff5-b9db-a02362247e1a','WASTE_TYPE','7 31 200 01 72 4 мусор и смет уличный',null,null
+'d6abb4db-e238-47ef-8b68-f018998490ea','WASTE_TYPE','7 31 200 02 72 5 мусор и смет от уборки парков, скверов, зон массового отдыха, набережных, пляжей и других объектов благоустройства',null,null
+'15753b55-db7c-4777-8392-3ff55e8b7d44','WASTE_TYPE','7 31 200 03 72 5 отходы от уборки территорий кладбищ, колумбариев',null,null
+'d6bb8f50-6b68-44b6-acba-62704c721ebd','WASTE_TYPE','7 31 205 11 72 4 отходы от уборки прибордюрной зоны автомобильных дорог',null,null
+'e6d38b7b-370d-479b-b3e5-5ed0573e9924','WASTE_TYPE','7 31 210 00 00 0 Отходы от зимней уборки улиц',null,null
+'debe338a-0e3e-4d5b-9060-80ccbd687255','WASTE_TYPE','7 31 211 00 00 0 Отходы от снеготаяния с применением снегоплавильного оборудования',null,null
+'cfa90cd9-8680-4f00-9c4f-aab284472496','WASTE_TYPE','7 31 211 01 72 4 отходы с решеток станции снеготаяния',null,null
+'7d5c38e2-68d3-4b35-9a79-81580a232ee4','WASTE_TYPE','7 31 211 11 39 4 осадки очистки оборудования для снеготаяния с преимущественным содержанием диоксида кремния',null,null
+'12789466-a5dc-4b9a-9e71-4ab0e4c3ad7c','WASTE_TYPE','7 31 211 61 20 4 отходы снеготаяния с применением снегоплавильного оборудования, обезвоженные методом естественной сушки, малоопасные',null,null
+'1a4ca275-c372-44e8-949d-5856152ba89b','WASTE_TYPE','7 31 211 62 20 5 отходы снеготаяния с применением снегоплавильного оборудования, обезвоженные методом естественной сушки, практически неопасные',null,null
+'440e8fdf-c8fc-4da0-a26a-55e14c230054','WASTE_TYPE','7 31 290 00 00 0 Прочие отходы от уборки территории городских и сельских поселений',null,null
+'b3a1dc69-2975-49ff-b210-89e0abc0a93d','WASTE_TYPE','7 31 300 00 00 0 Растительные отходы при уходе за газонами, цветниками, древесно-кустарниковыми посадками, относящиеся к твердым коммунальным отходам',null,null
+'1ce72bfd-1623-42a9-91b0-d3d3f7e8c1c8','WASTE_TYPE','7 31 300 01 20 5 растительные отходы при уходе за газонами, цветниками',null,null
+'ddd66de8-3dfd-4725-8855-64ae84766b46','WASTE_TYPE','7 31 300 02 20 5 растительные отходы при уходе за древесно-кустарниковыми посадками',null,null
+'7b1d2938-ec29-4568-9750-73e7c01aad36','WASTE_TYPE','7 31 900 00 00 0 Прочие твердые коммунальные отходы',null,null
+'1e61fcc2-80ba-4865-94fc-dd5476264ad5','WASTE_TYPE','7 31 930 00 00 0 Отходы при ликвидации свалок твердых коммунальных отходов',null,null
+'5f2e1d63-8881-43c8-8a71-158729918ea5','WASTE_TYPE','7 31 931 11 72 4 отходы при ликвидации свалок твердых коммунальных отходов',null,null
+'8a336168-c911-4cf2-9d06-2f9b4e1c2578','WASTE_TYPE','7 33 100 00 00 0 Мусор от офисных и бытовых помещений предприятий, организаций, относящийся к твердым коммунальным отходам',null,null
+'dcff1ada-80c9-4807-a117-0922f8d7779d','WASTE_TYPE','7 33 100 01 72 4 мусор от офисных и бытовых помещений организаций несортированный (исключая крупногабаритный)',null,null
+'f4fde984-8b88-4d32-af2d-4284b2ba82c0','WASTE_TYPE','7 33 100 02 72 5 мусор от офисных и бытовых помещений организаций практически неопасный',null,null
+'caa23017-9609-4564-9ff6-1156397b02c4','WASTE_TYPE','7 33 151 01 72 4 мусор от бытовых помещений судов и прочих плавучих средств, не предназначенных для перевозки пассажиров',null,null
+'34a47565-d1ad-4e75-ab3f-ad6157f0373e','WASTE_TYPE','7 33 200 00 00 0 Мусор и смет производственных и складских помещений, не относящийся к твердым коммунальным отходам',null,null
+'0191fab1-0ee3-45fd-b831-1d6299d29a47','WASTE_TYPE','7 33 210 01 72 4 мусор и смет производственных помещений малоопасный',null,null
+'760563e0-4962-4d69-aa96-71a3f8ea2c3b','WASTE_TYPE','7 33 210 02 72 5 мусор и смет производственных помещений практически неопасный',null,null
+'e39c8a4e-76e0-427e-8c78-5ac9d6218a93','WASTE_TYPE','7 33 220 01 72 4 мусор и смет от уборки складских помещений малоопасный',null,null
+'157717e1-4d64-4b9e-af7a-bc648ad45fcc','WASTE_TYPE','7 33 220 02 72 5 мусор и смет от уборки складских помещений практически неопасный',null,null
+
+'309a641b-6aca-415a-bac9-d79ace1ed381','UTILIZATION_OBJECT_EQUIPMENT_KIND','Основное',null,true
+'d0c65af6-3a2b-4c82-b493-618b6be1e360','UTILIZATION_OBJECT_EQUIPMENT_KIND','Вспомогательное',null,true
+
+'a0fd9b5c-5f60-4c30-bf92-5fdd5c59b9af','CORE_EQUIPMENT_TYPE','Технологическая линия по сжиганию ТКО',null,null
+'f89c66d2-441a-42d1-9484-754ac00bde21','CORE_EQUIPMENT_TYPE','Инсинератор',null,null
+'4db7c505-4012-4446-b6d5-ae9e56ab5bc1','CORE_EQUIPMENT_TYPE','Установка по сжиганию отходов (печь)',null,null
+'0c0a8384-d8b0-488c-bbb3-657153e422d2','CORE_EQUIPMENT_TYPE','Пиролизная установка',null,null
+'60888d39-8bd1-4044-99df-e50de96ce15b','CORE_EQUIPMENT_TYPE','Установка термического обезвреживания',null,null
+'a3552c93-5d50-4783-b458-c22cae998581','CORE_EQUIPMENT_TYPE','Установка термической деструкции',null,null
+
+'bb71f7ff-e4c7-4708-af5a-a43db60bc092','AUXILIARY_EQUIPMENT_TYPE','Вентилятор для поддержания давления в системе подачи воздуха для сжигания вытяжной',null,null
+'d2a517d7-0f12-4a31-b7d2-378a4fb16326','AUXILIARY_EQUIPMENT_TYPE','Вентилятор для поддержания давления в системе подачи воздуха для сжигания нагнетательный',null,null
+'68c676f9-87f6-4906-b37d-ed508ce32645','AUXILIARY_EQUIPMENT_TYPE','Оборудование для перевозки/загрузки отходов',null,null
+'56dfe136-16ae-465e-a0d9-9841659a791f','AUXILIARY_EQUIPMENT_TYPE','Калорифер (теплообменник)',null,null
+'2b419a76-80ce-40a1-8979-51744a3ae811','AUXILIARY_EQUIPMENT_TYPE','Шредер',null,null
+'1444e8b9-bef5-41de-bc22-d5c89e9ca386','AUXILIARY_EQUIPMENT_TYPE','Дробилка',null,null
+'c1d4246b-7cc6-4657-9e75-5ea30a6ca273','AUXILIARY_EQUIPMENT_TYPE','Мацератор',null,null
+'7723f156-3154-4c27-9335-bab4e3854a2c','AUXILIARY_EQUIPMENT_TYPE','Измельчитель',null,null
+'763fd44b-1fb1-4bef-9af8-c67e82f74023','AUXILIARY_EQUIPMENT_TYPE','Мельница',null,null
+'3e25f15b-bd7c-4b1b-b77a-ea47c289da5b','AUXILIARY_EQUIPMENT_TYPE','Дезинтегратор',null,null
+'b74f75d4-7b44-49ec-b9eb-e4f9a684d92a','AUXILIARY_EQUIPMENT_TYPE','Гранулятор',null,null
+'a943aa5d-5bc0-4dce-a01b-9934b87e649b','AUXILIARY_EQUIPMENT_TYPE','Резательный станок',null,null
+'79b0503e-f374-409a-b817-0a518f578f63','AUXILIARY_EQUIPMENT_TYPE','Пресс',null,null
+'51528320-19d2-4570-b52d-e18be5dfb3d1','AUXILIARY_EQUIPMENT_TYPE','Дистиллятор',null,null
+'9fdec2ad-3b93-488f-b7e4-b49566fb37bf','AUXILIARY_EQUIPMENT_TYPE','Оборудование для подогрева дымовых газов',null,null
